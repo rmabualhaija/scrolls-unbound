@@ -1,0 +1,927 @@
+﻿NO RP OR CRAFTING NODES, JUST SEPERATE SYSTEMS FFS. 
+
+
+Skill Nodes have direct ties to giving HP. 
+
+Archetypes are designated via the use of resources specific nodes give. Adrenaline for Warriors, Mana for Wizards, Stamina for Rogues. In between these archetypes are sub archetypes that use the different resources simultaneously. 
+
+
+Skill Nodes are placed in requisite “tiers” that determine differing cost based on the purchase of other “tiers.”
+
+
+When you gain HP from one ability in the primary trees and you already have tiers in other tiers, refer to the chart below
+
+
+When Tier is mentioned, use equivalent Tier HP amounts. 
+
+
+Red Tier 1: 3HP, Red Tier 2: 6HP, Red Tier 3: 9 HP, Red Tier 4: 12HP, Red Tier 5: 15HP
+
+
+Green Tier 1: 2HP, Green Tier 2: 4HP, Green Tier 3: 6HP, Green Tier 4: 8HP, Green Tier 5: 10HP
+
+
+Blue Tier 1: 1HP, Blue Tier 2: 2HP, Blue Tier 3: 3HP, Blue Tier 4: 4HP, Blue Tier 5: 5HP
+
+
+Purchasing RED but you have tiers in BLUE and/or GREEN:
+RED TIER HP - (BLUE TIER HP + GREEN TIER HP)
+
+
+Purchasing BLUE but you have tiers in RED and/or GREEN
+BLUE TIER HP - (RED TIER HP + GREEN TIER HP)
+
+
+Purchasing GREEN but you have tiers in RED and/or BLUE
+GREEN TIER HP - (RED TIER HP + BLUE TIER HP) 
+
+
+You can gain a minimum of 1 HP from these purchases. 
+
+
+The Mystical Branch & Spellcasting
+Spellcasting: Similar to Dungeons & Dragons 5th Edition, this system relies on you using a mental ability to cast your spells, such as intelligence, wisdom or charisma.  However, unlike D&D 5e, the ability that one uses to cast spells may change quite often.  Whenever you spend LP on a mystical node for the first time, you must decide which ability score will be used for your “spellcasting ability”.  You may choose from either intelligence, wisdom or charisma.  
+Learning Spells: Every spell you learn, after purchasing one from the “+1 spell” node, is always considered to be prepared.  There is no “preparing spells” when using this skill tree.
+
+
+When you read about purchasing spells from the “Spell” node’s description, you will notice that certain spells are unavailable to purchase unless you have the required amount of mana in your mana pool.  This means that you cannot purchase a 2nd level spell, for example, until you have a maximum amount of mana in your mana pool equal to or more than 10.
+
+
+In order to have a maximum mana pool of 10, you would have needed to purchase from the “Mana” node 5 times, gaining 2 mana from each purchase.  
+
+
+Spell Level
+	Point Cost
+	1st
+	2
+	2nd
+	3
+	3rd
+	5
+	4th
+	6
+	5th
+	7
+	6th
+	9
+	7th
+	10
+	8th
+	11
+	9th
+	13
+	
+
+Spending Mana: The cost to make a spell slot using mana is not a 1:1 ratio.  Instead you spend the corresponding amount of mana listed on the table below.  
+
+
+When you spend mana, think of it like a “mana bar” in video games.  Mana is not gone forever when spent.  When you take a long rest, you regain all of your spent mana, bringing your mana pool back up to full.  Alternatively, you can also spend hit dice during a short rest, to recover any spent mana. 
+
+
+Casting High Level Spells: You may only cast one 7th, 8th and 9th level spell per day.  If you choose to cast an additional 7th, 8th or 9th level spell in a day you must make a constitution saving throw where the DC is equal to 10 + the spells level.  On a successful roll, the spell is cast.  
+
+
+RED SKILLS
+TIER 1
+Speed (1 LP) [Gain 3 MAX HP]: When you spend a point in this node, you gain a movement speed from your choice of one of the options below. If you already have a movement speed in the selected option, you instead increased that movement speed by the mentioned amount:
+* Walking: 10ft
+* Swimming: 10ft
+* Climbing: 10ft
+
+
+Adrenaline (2LP) [Gain 3 MAX HP] Grants you two additional Adrenaline. Other abilities use Adrenaline to grant additional effects such as rage, heart attacks, aneurysm , and spasms. You also gain the ability of Second Wind. 
+
+
+You regain all of your Adrenaline after a long rest or you can spend your Hit Dice during a short rest to regain that many Adrenaline back. You also gain the following Heart Attack: Cardioversion.
+
+
+Cardioversion (Cost: 1 Adr): You have a well of Adrenaline that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d4+Con Mod. Any amount healed over your Max HP turns into Temp HP. If you are under the poisoned condition, you cannot regain health in this manner. 
+
+
+TIER 2 (3 LP IN RED TO UNLOCK)
+Heart Attacks (1 LP) [Gain 6 MAX HP]: When you spend a point in this node, you can choose to learn one of the Heart Attacks from the list below. Typically, you use Heart Attacks at the start of your turn, as a bonus action, or as free action before making an attack.  Most Heart Attacks cost different amounts of Adrenaline. You can only use one Heart Attack per round. 
+* Kickstart (Cost: 2): You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action. 
+* Syncopated Rhythm (Cost: 2): At the start of your turn, you can spend 2 Adr to move around an opponent if they miss a melee attack against you. This essentially means that you can reposition yourself anywhere around your opponent, moving with their attack. You cannot move out of their attack range while doing this. Additionally, when you hit an enemy, you can move them any direction 5 ft except for into immediate danger. 
+* Siege Engine (Cost: 3): You inhibit your muscles with Adrenaline, making them as hard as steel and twice as reactive. At the start of your turn you can spend 3 Adr to deal double damage to structures and constructs. 
+* Void Strike (Cost: 3): As a free action before a melee attack you can spend 3 Adrenaline to cut through the air so quickly and with such force that the space between you and a target of your choice within 5 times Str/Dex ft (whatever you use in the attack or damage modifier of your weapon) of you is pulled towards you in a straight line. You can double the spent Adrenaline to make range increase to 10 times Str/Dex ft.  
+* Blink Footwork (Cost 4): At the start of your turn, you can spend 4 Adr to make your movement near instantaneous, meaning no opponent can take opportunity attacks against you. 
+
+
+Rage (2 LP) [Gain 6 MAX HP] Grants you one use of a rage per short rest. Additional purchases grant you additional uses.
+
+
+To activate your rage, you must spend a bonus action to do so and it lasts for 1 minute, or until you choose to end it. While raging you do gain advantage on strength checks and saving throws and may cast spells while raging.  However, you automatically lose concentration on spells you are concentrating on at the end of your turn.
+
+
+When raging, you deal additional damage equal to the amount of unspent Adrenaline you have.
+
+
+Additionally, you gain resistance to any damage types you have chosen from the “Rage Resist” node.  You regain the use of all of your rages after you take a short rest. When you take Rage and also on each subsequent purchase, you gain one of the rage types below. You can choose to go into a regular rage for free on your turn, or spend one Adrenaline to go into one of the rages below.    
+* Adamant Rage: You cannot be grappled, restrained, knocked prone or moved against your will, while this rage is active.  Additionally, you can dash as a bonus action.  Also, if you are petrified, stunned or paralyzed, you can spend 1 adrenaline to remove one of these conditions.
+* Avenging Rage: While this rage is active, whenever an ally within 15ft of you takes damage, you can dash as a reaction and make a melee attack against whoever dealt that damage.  If an ally you can see falls unconscious, due to an enemy's actions, while this rage is active, the next attack you make is an immediate hit.
+* Focused Rage:  While this rage is active, your rage bonus is also applied to any spells you cast.  Your movement speed increases by 10ft and you gain a +1 to AC.  Additionally, instead of your rage granting you advantage on strength checks and saving throws, it instead grants you advantage on wisdom or dexterity checks and saving throws (your choice when you enter this rage).
+* Undying Rage:  While this rage is active, if your hit points are reduced to 0 they instead are reduced to 1.  When this happens, you gain 1 level of exhaustion.  Any healing you receive, while this rage is active, is increased by twice the amount of Adrenaline you have remaining, minimum of +2. 
+
+
+Rage Resist (1 LP) [Gain 6 MAX HP] When you purchase this node you can select a damage type from one of the lists below. While raging you gain resistances to any damage types selected from purchases in this node. 
+* Slashing, Piercing, and Bludgeoning 
+* Fire and Cold
+* Thunder and Lightning
+* Psychic 
+* Radiant
+
+
+TIER 3 (6 LP IN RED TO UNLOCK)
+Aneurysms (2 LP) [Gain 9 MAX HP]: Your mind is a cage, and your body is the beast trying to break through it. Sometimes their vein diagram of these two parables crosses over, resulting in a resplendent aneurysm. When you take a point in this node, you choose two from the list of Aneurysms below. Using an Aneurysm requires the player to spend HP, this damage cannot 
+* Quick Trigger Synapse Blowout (Cost: ⅛ Current HP): At the start of your turn you can spend 5 HP to gain an additional reaction during the round. 
+* Right Hemisphere Supremacy (Cost: ⅛ Current HP): You can use your physical to empower that of the Arcane. By sacrificing 5 HP as a free action, you can use Adrenaline in order to cast spells alongside or in place of Mana for the next minute. This Adrenaline can be used in place of Mana for any ability that uses Mana. 
+* Amygdala Overclock (Cost: ¼ Current HP): You turn your mind’s enemy into your body’s ally. As a bonus action, sacrifice 10 HP in order to convert a condition from the following list into a -1 global modifier: Blinded, Deafened, Charmed, Frightened, Paralyzed, or Stunned. For each condition converted in this way, you regain that many Adrenaline after activating this Aneurysm and at the beginning of your turn for the next minute for as long as those conditions “remain” on you.   
+* Cerebral Fusing (Cost: ¼ Current HP): Your Cerebellum is a muscle, it should be flexed. As a bonus action, sacrifice 10 HP in order to fuse all of your disparate movement speeds into a single known movement speed. Adding together all movement speeds into a grand, huge, single movement speed. This fusing of movement lasts for one minute.
+* Left Hemisphere Supremacy (Cost: ½ Current HP): You ascend your body by physical means into the realm of near perfection. At the start of your turn, you sacrifice half of your current health to make every attack you make for the remainder of the round a critical hit if it hits. You can reduce your HP to a minimum of 1. 
+* NO WINKLES! (Cost: ½ Current HP): You smooth out your brain. At the start of your turn you sacrifice half of your current health to completely clear your mind for 1 minute. While you are in this state, you cannot make any mental-based skill checks (Cha, Wis, Int), however, effects meant to elude, trick, mentally assault, or psychically harm you are considered moot and do not do anything to you. Others who try to read your mind are terrified at the lack of internal movement. 
+
+
+Spasms (2 LP) [Gain 9 MAX HP]: In place of the mind, your body violently lashes out against reality. Despite your best efforts, these Spasms are out of your control. When you take this node, you gain a Spasm from the list below. Spasms are triggers to let out an attack against a target as a reaction. You can change your Spasm after a long rest. You can only have one Spasm active at a time. 
+* Magekiller Instinct: An instinct to sniff out and destroy the arcane.
+   * Trigger: Someone casts a spell within 5ft of you. 
+   * Reaction: Attack the caster. 
+* Death Drive: An instinct that chases after the death knell of those around you. 
+   * Trigger: Someone either dies or goes unconscious within 5ft of you. 
+   * Reaction: Attack the killer (if you, move and attack the closest nearby creature within 10ft)
+* Cull the Weak: An instinct of feral supremacy. 
+   * Trigger: Someone fails on a saving throw within 5ft of you. 
+   * Reaction: Attack whoever fails.  
+* Overtake the Strong: A different instinct of feral supremacy. 
+   * Trigger: Someone succeeds on a saving throw within 5ft of you.
+   * Reaction: Attack whoever succeeds. 
+* Stop the Spread: An instinct of protecting the herd. 
+   * Trigger: Someone gains a condition within 5 ft of you. 
+   * Reaction: Attack the conditioned one. 
+* AH! FIRE!: An instinct as base to any sapient creature. 
+   * Trigger: Someone catches on fire within 5 ft of you. 
+   * Reaction: Attack them. 
+* AH! LIGHTNING!: An instinct also base to any sapient creature. 
+   * Trigger: Someone gets hit by lightning within 5 ft of you. 
+   * Reaction: Attack them. 
+
+
+TIER 4 (9 LP IN RED TO UNLOCK)
+Frenzies (3 LP) [Gain 12 MAX HP]: A greater rage, these specific Frenzies give Adrenaline as part of their power. Undergoing a frenzy requires spending one Adrenaline. When you come out of a Frenzy you take one level of exhaustion. 
+* Bloodthirsty Frenzy:  While this rage is active, you deal additional damage equal to twice the amount of unspent Adrenaline you have. This additional damage can either be fire, necrotic or radiant damage, you choose.  If you reduce a creature to zero hit points while this rage is active, you gain one Adrenaline and can dash and make one additional attack against another creature as a bonus action. 
+* Gibbering Frenzy:  Your melee reach increases by 10ft, while this rage is active.  Additionally, all damage you deal, while this rage is active, is psychic damage. If this attack would break an enemy’s concentration you gain 1 Adrenaline. 
+* Reckless Rage:  All attacks you make, while this rage is active, are made with advantage.  However, all attacks against you are made at advantage.  If you move at least 15ft during your turn, your AC increases by the amount of remaining Adrenaline you have, until the start of your next turn. If two or more enemies have attacked you by the end of your turn, you gain as much Adrenaline back equal to the amount of enemies that have hit you. You cannot gain more Adrenaline than is equal to your proficiency bonus
+
+
+Regen (3 LP) [Gain 12 MAX HP]: At the start of your turn, you regain 1 hit point for every purchase made in this node.  If you take necrotic damage before your turn, or are incapacitated, you do not gain the benefits of this ability.  This effect works slower outside of combat, healing you instead every hour by 10 every point invested in this node.  
+
+
+This ability cannot regenerate missing body parts. 
+
+
+TIER 5 (25 LP IN RED TO UNLOCK)
+LIMIT BREAK (5 LP) [Gain 15 MAX HP]: When you purchase this node you select one of the following abilities from the list below. It requires a bonus action to activate a Limit Break ability. You cannot activate Limit Break again until you finish a long rest.  Additionally, you can only activate Limit Break when you have less than half of your maximum amount of hit points remaining.  When you activate your Limit Break, you immediately enter a rage, even if you have no rages remaining.  You do not use up any of your rages when you Limit Break. This rage lasts for 1 minute or for as long as you remain below half your hit points, unless otherwise stated.  While your limit break is active, you can choose to dismiss your regen ability.
+
+
+Desperate Strike: While raging with this ability, all attacks you make are made at advantage.  When you activate this ability you immediately make an attack.  The first attack you make that hits its target, deals additional damage equal to your maximum hit points - remaining hit points.  You may choose from the list below what type of additional damage you deal:
+* Fire
+* Cold
+* Lightning
+* Thunder
+* Acid
+* Poison
+* Necrotic
+* Radiant
+When the damage is dealt you can either choose to go out of your rage, or take a level of Exhaustion to keep it going. The next turn, you can do another Desperate Strike with the same conditions as before. You can only do one Desperate Strike per round. 
+Mortal Engine: When you activate this ability you become resistant to all damage types and any 2 rage resistances of your choice become immunities instead, so long as your hit points remain below half of your maximum hit point total.
+
+
+Unbound: When you activate this ability, melee attack range, movement speed (all), and AC is increased by 5ft and +1 AC per unused Adrenaline. You can make extra attacks equal to one extra attack per 10 unused Adrenaline. While this rage is active, at the end of your turn, you take true damage equal to two times your unused Adrenaline. 
+Blood Drinker: This ability lasts until your hit points are full or until you rest. Any time you deal damage to a creature while in this rage, you regain hit points equal to the amount of damage you dealt.  Any damage you deal in this way cannot be healed until that creature takes a long rest. 
+
+
+PURPLE SKILLS
+TIER 2 (TIER 1 OF BOTH RED AND BLUE REQUIRED)
+Mana Drain (2 LP) [Gain 2 MAX HP]:  When you deal damage with a melee spell attack or a melee attack that deals magical damage, you gain mana equal to the amount of LP invested in this node. If you strike a creature that has Mana, they lose half the Mana you gain from striking them. 
+
+
+TIER 3 (TIER 2 UNLOCKED OF BOTH RED AND BLUE REQUIRED)
+Focus (3 LP) (Gain 2 MAX HP): You spend 1 Mana and 1 Adrenaline as a bonus action to enter a trance-like state of Focus. 
+When you enter this state you choose your focus to be Internal or External.
+* While Internally focused you gain advantage on wisdom checks and saving throws.  You also gain a +1 bonus to all constitution saving throws.
+* While Externally focused you gain advantage on dexterity checks and saving throws and your AC increases by 1.
+While you are in a focused state (both Internal and External), you also gain immunity to any conditions you have chosen from the “Fortify” node.
+At the beginning of your turn, you may choose to maintain your focus by spending 1 point of Mana and 1 Adrenaline. 
+If you are hit and take damage your focus is broken and the benefits you gain from it end, unless you pay 1 Mana and 1 Adrenaline to maintain your focus or succeed on a concentration check.  
+
+
+Fortify (2 LP) [Gain 2 MAX HP]: When you purchase this node you can select a condition from the list below.  While focused, you gain immunity to any condition gained by purchasing this skill.  
+Condition Types
+* Charmed & Put to sleep
+* Deafened & Blinded
+* Stunned
+* Paralysed
+* Petrified
+
+
+Bound Weapon (2 LP) [Gain 2 MAX HP] As an action, you can magically bind a weapon, piece of armour or shield to you. You may have a number of bound items equal to two times the amount of LP invested in this node. 
+
+
+When an item is bound to you, you can choose to summon it to your hand or equip it from any location it exists as a free action.  If your weapon is a thrown weapon, it cannot be called back for free, but you can instead teleport to the Bound Weapon as a bonus action.
+
+
+ Alternatively, you may dismiss it to your own personal pocket dimension as a free action.  Any items bound by you can be stored here.  While wielding a weapon bound this way, it cannot be disarmed from you, and armour or shield cannot be forcefully removed by another, unless you wish it.  Any ranged weapons bound to you in this way never need ammunition, but instead are loaded with a magical piece of ammunition when used.  However, weapons with the reload property still need to be uploaded when necessary.  
+
+
+Bound weapons may still use other forms of ammunition too and do not always need to use this magical ammunition.  Any arcane ammunition fired from bound weapons disappears after 1 minute, or after the weapon that fired it is dismissed.
+
+
+TIER 4  (TIER 3 UNLOCKED OF BOTH RED AND BLUE REQUIRED )
+Smite (2 LP) [Gain 3 MAX HP]: When purchasing this node, you gain 1 use of the smite ability per long rest. You can regain Smites during a Short Rest by expending Hit Dice equal to the amount of Smites you want back. 
+
+
+When you hit a creature with an attack but before you deal damage,you can choose to make it a smite. Smiting causes additional damage to be dealt on top of base weapon damage. You can choose for this additional damage to be fire, radiant or necrotic. 
+
+
+The amount of damage you deal is determined by how much Mana and Adrenaline you spend. The Mana amount determines the dice type while Adrenaline determines the amount of dice. You can only add an additional amount of dice equal to your proficiency bonus. Refer to the table below. 
+
+
+ADRENALINE SPENT
+	DICE TYPE
+	1
+	d4
+	2
+	d6
+	3
+	d8
+	4
+	d10
+	5
+	d12
+	
+
+Mana Blade (1 LP) [Gain 3 MAX HP]: You spend 1 Mana and 1 Adrenaline to magically summon a melee weapon made of pure magical energy into your hand. This weapon can take the form of any simple or martial melee weapon you desire. The Mana Weapon lasts for an amount of minutes equal to LP invested or until dismissed. 
+
+
+Any damage dealt by a mana weapon is considered to be magical.  When making attack rolls and calculating damage with a mana weapon, you may choose to use a mental ability modifier (Intelligence, Wisdom or Charisma) instead of Strength or Dexterity.
+* If you invest 3 or more LP into this node, any mana weapons you summon can also take on the appearance of a simple ranged weapon.
+* If you invest 5 or more LP in this node, all mana weapons you summon are considered to be +1 magical weapons.
+* If you invest 6 or more LP into this node, all mana weapons you summon can also take on the form of a martial ranged weapon.
+* If you invest 10 or more LP into this node, all mana weapons you summon can take on the form of any weapon you desire and are considered to be +2 magical weapons. You can change its shape and thus range at the start of your turn as a free action. 
+
+
+Aura (3 LP) [Gain 3 MAX HP]: When you purchase this node you gain an aura with a 5ft radius which you can choose to have active or inactive at any time.  You may only have one aura active at a time.  This aura’s radius increases by an additional 5ft each time you purchase from this node.
+
+
+Whenever you purchase from this node, you may choose an effect from the list below, to add to your auras abilities.  Any creature of your choosing within your aura gains the benefits of any effects you have chosen from this list.  You may not choose an ability you already own:
+
+
+* Add half your spell casting modifier to saving throws
+* Regain an additional 1d4 hit points whenever you receive healing.
+* They cannot be subjected to the fear condition
+* They cannot be charmed
+* They cannot be controlled psychically
+* Their movement speed increases by 10ft.
+
+
+BLUE SKILLS
+TIER 1
+Mana (1 LP) [GAIN 1 MAX HP]: Grants you 2 mana to add to your mana pool, additionally increasing its maximum size by 2. You can spend mana to cast spells or alter them, as well as using them to create numerous other magical effects and abilities granted to you by different nodes on this skill tree.
+
+
+Each time you gain a certain amount of mana, you naturally come to learn a new spell of your choice.  See the table below to see the level of spell that you learn, after gaining a sufficient amount of mana in your mana pool.  For example, after gaining 10 mana from this node, you learn a level 1 spell of your choice for free.  You always have the option too to pick a lower level spell than the one offered.
+
+
+Optional: Instead of picking a new spell, you may instead choose one of the optional “Arcane Advancements” on the table below, rather than learning a new spell.  If there is more than one option available, you may only pick one.  However, when picking an Arcane Advancement, you always have the option to choose previous Arcane Advancements instead of the one(s) offered to you in the column related to the level of mana you have just reached. 
+
+
+For example, upon gaining 30 mana, I could pick Specialist or Battle mage, but I could also pick from any of the other options available to me in previous columns, say “Arcane Understanding” for example.
+
+
+Size of Mana Pool Reached
+	Level of Spell Learned
+	10
+	1
+	15
+	2
+	20
+	3
+	25
+	4
+	30
+	5
+	40 & must be level 15 or higher
+	6
+	50 & must be level 15 or higher
+	7
+	
+
+Cantrip  (1 LP) [GAIN 1 MAX HP]: You learn 2 cantrips of your choice.
+
+
+TIER 2 (3 LP IN BLUE TO UNLOCK)
+Minor Arcana (1 LP [Gain 1 MAX HP]: You learn 1 spell. However, you may only learn spells of a particular level, if you have the required amount of mana in your mana pool, or more.  
+See Learning Spells for more information.
+
+
+* Level 1 Spell.  Requirement: n/a Cost:1
+* Level 2 Spell.  Requirement: 10 mana Cost: 1
+* Level 3 Spell.  Requirement: 15 mana Cost: 1
+* Level 4 Spell.  Requirement: 20 mana Cost: 1
+* Level 5 Spell.  Requirement: 25 mana Cost: 1
+
+
+Summon (2 LP) [Gain 1 MAX HP]: Allows you to summon a familiar from the list below. Each purchase from this node allows you to choose an additional creature from the list below to add to the list of creatures that you can summon.  You may only have one active familiar at a time.  
+
+
+You may spend an action to remove any amount of your own senses and replace them with the familiars; being able to see what it sees, hear what it hears etc. 
+
+
+You can cast spells through your familiar as if it were an extension of yourself. 
+
+
+When a familiar drops to 0 hit points it is dismissed and you cannot resummon that familiar again until you take a long rest.  
+
+
+As an action you can summon a familiar by spending 1 Mana. Additionally, if you want that summon to have any additional buffs when summoned that you might have purchased from the “Summon Buff” node, then you must additionally pay the respected amount of mana for each of those buffs.
+
+
+Summons: 
+* Bat
+* Cat
+* Crab
+* Frog
+* Hawk
+* Lizard
+* Octopus
+* Owl
+* Snake
+* Rat
+* Raven
+* Spider
+* Weasel
+* Minor Peryite (pseudodragon)
+* Imp
+* Quasit
+* Sprite
+* Winged Animal (tressym)
+* Minor Sheogorath (Trickster Cat)
+* Horned Animal (Almiraj)
+
+
+Heal (2 LP) [Gain 2 MAX HP]: You can only purchase this node a number of times equal to your level. All healing spells you cast heal 1 additional hit point for every LP invested in this node. This is known as your Healing Modifier. 
+
+
+Ward (2 LP) [Gain 2 MAX HP]: You can only purchase this node a number of times equal to your level. Grants you one use of the ward per short rest.  A ward is a magical barrier you can activate to protect yourself or another creature. You activate your ward as a reaction to another creature being attacked within 15 ft of you. Your Ward increases that creature’s AC equal to the amount of LP invested in this node. The ward must be activated before the DM reveals the result of the hit and before the damage is rolled.  
+
+
+When you activate your ward you choose a creature that you can see within range (which can include yourself), and increase that creature’s AC by your ward bonus, until the start of their next turn.
+
+
+The range of your ward increases by 5ft for each LP spent in this node.
+
+
+You can purchase from this node a number of times equal to half of your level (rounded up). Each purchase grants you an additional use of it per short rest. After three purchases of this node the LP cost increases by one, after four it increases by one again, and so on and so forth.
+
+
+TIER 3 (6 LP IN BLUE TO UNLOCK)
+Greater Heal (2 LP) [Gain 3 MAX HP]: your healing becomes enhanced by a personal strike of arcane care. When you purchase this skill, you gain one usage of Greater Heal and one of the following Healing Gifts. 
+* Healing Hands: As an action, you touch a creature to have them spend 1 of their hit dice, roll it and have them gain a number of hit dice equal to the result + your healing modifier + their constitution modifier (minimum 0). This requires 1 use of your Greater Heal to perform this action. You may spend additional uses of your healing gift during this action to have the creature roll 1 additional hit dice per healing gift spent. 
+* Rejuvenating Touch: As an action, you touch a creature to have them spend 1 of their hit dice in order to remove a simple condition from them. (charm, poison, frightened, stunned). This requires 1 use of your Greater Heal to perform this action. 
+* Miracle Worker: As an action, you touch a creature to have them spend 1 of their hit dice in order to remove a simple condition from them. (Blind, Deaf, Petrified, Polymorphed, Paralysed). This requires Greater Heal to perform this action. 
+* Soothing Words: As a bonus action, you can choose a creature you see and who can see and hear you, and have them spend 1 of their hit dice in order to gain a number of temporary hit points equal to your healing bonus. These temporary hit points last for 1 minute. This requires 1 use of your Greater Heal to perform this action and can only be used once per creature per short rest.
+
+
+Summon Buffs (2 LP) [Gain 3 MAX HP]: When you purchase this skill When you summon your familiar they gain the benefits of any of the abilities you have purchased from this node. A familiar can only have a number of abilities active, when summoned, equal to your proficiency modifier.  When you decide to summon a familiar with one of the buffs you have gained access to, you must also pay the amount of mana listed in the Summon Buff’s description, alongside any other mana costs for the summon itself.
+
+
+When spending mana on buffs for your familiar, you cannot spend a total number of mana greater than your level.
+* Wings:  Cost: 1 Mana
+   * Your familiar gains a flying speed equal to its movement speed.
+* Elemental:  Cost: 1 Mana
+   * The damage your familiar deals is now changed to one of the following damage types:
+Acid, cold, fire, lightning, poison or thunder.
+   * Big Mode: Cost: 3 Mana
+   * Your familiar becomes a large creature and it deals 1 additional damage dice when rolling for damage.
+   * Mana Drain: Cost: 2 Mana
+   * When your familiar deals damage, you regain 1 mana.
+   * Life Drain: Cost: 3 Mana
+   * When your familiar deals damage it heals you by 1d4 hit points.
+   * Extra Attack: Cost: 4 Mana
+   * Your familiar can make 1 additional attack on it’s turn
+   * Thick Hide/Shell: Cost: 2 Mana
+   * Increase your familiar’s AC by 2
+   * Incorporeal: Cost: 2 Mana
+   * Your familiar gains resistance to bludgeoning, piercing, and slashing damage from non-magical attacks
+   * Death Burst: Cost: 1 Mana
+   * When your familiar dies it deals 1d6 damage to every creature within 5ft of it or half on a successful Dex Saving Throw against your spell save DC. You can spend additional mana to increase this damage by 1 additional d6 for each point of mana spent.  The damage dealt is bludgeoning damage unless the familiar is under the effects of the “Elemental” buff, in which case it deals that damage type instead.
+   * Speedy: Cost: 1 Mana
+   * Increase your familiar’s base movement speed by 10 ft.  It can also take the dash action as a bonus action.
+   * Barbed Hide: Cost: 2 Mana
+   * Any creatures who deal melee damage to this familiar take damage equal to your level.
+   * Unstable Summon:  Cost: 2 Mana
+   * Your familiar is under the effects of the Blink spell until it is dismissed.
+   * Shrunk: Cost: 1 Mana
+   * Your familiar’s size becomes tiny and deals half as much damage but their AC and dexterity saving throws increase by 5.
+   * Well Fed: Cost: 1 Mana
+   * Your familiar’s hit points increase by 20 for every mana spent on this ability when summoning it.
+   * Cannon Fodder: Cost: 0 Mana
+   * Your familiar has 1 hit point and this number cannot increase.  When you summon a familiar in this way, you gain 2 mana which can only be spent on Summon Buffs for this summoned familiar.
+
+
+Shape Change (3 LP) [Gain 3 MAX HP]: When you purchase from this node, you choose 1 beast type creature of CR 1/4 or lower, and add it to your list of “Shape Changes”.  As an action, by spending 2 mana you can transform into any creature listed in your “shape changes” list.  You can change these shapes during a Long Rest. This transformation lasts for 10 minutes, unless otherwise stated.
+While you are transformed, the following rules apply:
+   * Your game statistics are replaced by the statistics of the creature you changed into, but you retain your personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.
+   * When you transform, you assume the creature's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form, For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked unconscious.
+   * You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.
+   * You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it.
+When you have purchased this skill twice you have the option to add up to 2 humanoids you have seen  to your “shape change” list, instead of choosing a beast. However, when you shapechange into this humanoid, you retain all of your statistics and do not gain any of the creature’s that you turned into.  Only your physical appearance changes as does your voice to resemble them. You can change these two humanoids after a long rest. 
+When you have purchased this sill three times, you can now choose from CR ½ beasts to shape change into.
+When you have purchased this skill four times, you can now shape change as a bonus action instead of spending an action to do so.  Additionally you can now choose beasts to shape change into that are equal to half of your level.
+When you have purchased this skill five times the shape change ability now costs 1 less mana.
+When you have purchased this skill six times you can now select 3 beasts to shape change into instead of 1, when spending LP in this node.
+When you have purchased this skill seven times you can now choose from elementals as well as monstrosities to shape change into.
+
+
+TIER 4 (9LP IN BLUE TO UNLOCK)
+Spell Weaves (2 LP) [Gain 4 MAX HP]: Grants you 2 Spell Weaves from the list below.  Spell Weaves, also referred to as “the weaving of a spell”, lets one warp the nature of spells they cast, altering their properties in different ways.  
+
+
+To “weave” a spell, you must spend the required amount of mana mentioned in the Spell Weave’s ability. 
+
+
+Spell Weaves are used as the spell is being cast but before spell attacks or saving throws are made. 
+   * Alter Element: You can spend 1 mana to alter the damage type of a spell you cast to one of the following: Acid, cold, fire, lighting, necrotic, poison or thunder. 
+   * Careful Craft: When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 or more mana and choose a number of those creatures equal to the amount of mana spent + the spell’s level. A chosen creature automatically succeeds on its saving throw against the spell.
+   * Distant Weave: When you cast a spell that has a range of 5 feet or greater, you can spend 1 mana to double the range of the spell. When you cast a spell that has a range of touch, you can spend 1 mana to make the range of the spell 30 feet.
+   * Empowering Burst: When you roll damage for a spell, you can spend 1 mana to reroll up to 2 damage die, per mana spent. You must use the new rolls.
+   * Fast Cast: When you cast a spell that has a casting time of 1 action, you can spend 3 mana to change the casting time to 1 bonus action for this casting.
+   * Galvanise: When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 mana to give one target of the spell disadvantage on its first saving throw made against the spell.  You can spend 3 additional mana to give 1 additional creature disadvantage too.
+   * Homing Guide: When you cast a spell that requires you to make a spell attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 mana to ignore the effects of half- and three-quarters cover against targets of the spell.
+   * Linger: When you cast a spell that has a duration of 1 minute or longer, you can spend 1 mana to double its duration, to a maximum duration of 24 hours.
+   * Split Spell: When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of mana equal to the amount of mana spent to cast the spell, to target a second creature in range with the same spell (2 mana if the spell is a cantrip). To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. 
+   * For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are.
+   * Subtle Craft: When you cast a spell, you can spend 2 mana to cast it without any somatic or verbal components.
+
+
+Arcane Bonds (5 LP) [Gain 4 MAX HP] You dedicate yourself to a single aspect of the magical world and make it the core focus of your arcane power.  When you purchase from this node, you choose an ability from one of the Arcane Bonds from the list below.  Once you have purchased an ability from one of the lists of Arcane Bonds below, you cannot purchase abilities from any other Arcane Bond lists, except from the list you first purchased from.
+
+
+Each ability in the lists below costs 5 LP to purchase.
+Black Mage
+You dedicate your heart to the pursuit of power, whatever the cost.  You become the master of syphoning of life and the art of sacrifice.  All great things gained come with an equal loss.
+Black Mage Abilities List:
+   * Life Drain: When you deal damage to a creature with an attack, you regain hit points equal to your proficiency bonus.  If an attack you make reduces a creature to 0 hit points, you regain twice as many hit points from this ability.  Constructs and undead are unaffected by this ability.
+   * Blood Sacrifice: When you make a spell attack, but before you know the result, you can sacrifice a number of hit points to increase its damage by the amount of hit points you sacrificed.
+   * Forbidden Magic:  If you choose to cast a necromancy spell, you can do so for half of its mana cost.  
+Blue Mage
+You dedicate your mind to the pursuit of perfection.  Knowledge is power and will allow you to mould the world to your perfect ideals.  You must be careful in your pursuit and be ready to manipulate and deceive the world, if it means guiding it to your vision.
+Blue Mage Abilities List:
+   * Seeker of Perfection: When you roll for the damage of a spell you cast, you may reroll each dice rolled once each if you are unhappy with their result. You must spend one mana per rerolled dice. 
+   * Well of Knowledge: You may use your intelligence modifier for any saving throw you make instead of the original ability score modifier. 
+   * Tactician: You can spend a reaction to add your Int Mod to an ally’s attack or damage roll for an action that you can see. 
+Green Mage
+You dedicate your life to life; all living things.  This world is precious and needs to be nurtured.  And the love you give to the world, is returned to you tenfold.  Traditions, the ties that bind and the ways of nature must be preserved and defended.  You know that true power does not come from one single source alone.
+Green Mage Abilities List:
+   * Emissary of Life:  Anytime you heal a creature you instead heal them for twice that amount.
+   * Ties that Bind:  You can spend a reaction to give an ally you can see advantage on a saving throw. 
+   * The Power of Kinship: For every ally within 10ft of you that you can see,  you add 1 to your healing spells effectiveness. 
+Red Mage
+You submit your soul to emotion; let it be your guide.  Freedom is the ultimate goal.  Let cities crumble with time, let fires rage, you know that true power cannot be contained, only danced with.  Listen to that impulse deep within; your instincts will guide you.
+Red Mage Abilities List:
+   * Let Chaos Reign: Whenever you make a spell attack roll and are unhappy with the result, you can reroll all of the dice you just rolled but must keep the new results.  Additionally,  any damage dealt by 1st level spells or higher than you cast, deal twice as much damage to constructs and objects.
+   * Unchained: You may cast the Knock spell for one mana as a bonus action.  When you do so, it makes no sound and the target of the spell is destroyed, magical or otherwise, unless the target is sealed with the lock spell, in which case it is simply suppressed for 10 minutes. Additionally you cannot be grappled or restrained and can spend 1 mana as a reaction to end one of these effects on a creature of your choosing.  
+   * Finally, you may also spend 2 mana as a reaction to end any magical effect that would prevent a creature of your choosing from moving. 
+   * All of these abilities can be used on any targets within 60ft of you that you can see.
+   * Freedom: The following spells can be cast for half as much mana and you learn 2 of them: fly, freedom of movement, expeditious retreat, longstrider, misty step and thunder step.  Additionally, whenever you deal damage to a creature using a 1st level spell or higher, you may teleport up to 30ft.
+White Mage
+You dedicate conscience to doing what is right.  Rigorous structure and order is what is needed to grab power by the horns and guide it on the right path; to be used for good.  You will follow a selfless path or law and light.  The better the world, the greater the forces of good will be.
+
+
+White Mage Abilities List:
+   * Life Transference: As an action you can touch a willing creature and when you do so, you reduce your hit points by a certain amount and restore that creature’s hit points by double that amount.
+   * Selfless Act and Repent: If a creature within 10ft of you is targeted by a spell or made the centre of a spell, you can spend your reaction and mana equal to the spells level to make yourself the target of centre the spell on you instead, or alternatively silence the caster until the end of their next turn, after the spell is cast.
+   * Banishing Light: Any spells you cast against undead, fiendish, or otherwise otherworldly creatures deal additional radiant damage equal to your level.  Additionally, these creatures have disadvantage on saving throws against spells you cast against them.
+Void Mage
+You give yourself up to the void.  You throw it all away now understanding the pointlessness of pursuing power.  It does not exist and should not exist.  You will rid the world of power.  Only then will all things be equal.
+Void Mage Abilities List:
+   * Anti-Mage: The following spells can can be cast for half as much mana: 
+   * antimagic field, blindness/deafness, counterspell, dispel magic, faerie fire, see invisibility and silence.
+   * Additionally, you learn the spell counterspell if you do not already know it.
+   * Arcane Dilution: You have advantage on saving throws against all magical effects.
+   * Spell Drain: If you succeed on a saving throw against a spell effect, you regain mana equal to half of the spell’s mana cost.
+
+
+Arcane Movement (3 LP) [Gain 4 MAX HP]: You gain access to the very first stepping stones of an empowered mage. Whenever you take this skill node, you gain an amount of movement in different movement types detailed below. 
+   * Flight (levitating): 5ft
+   * Ghost-Walk: 5ft
+
+
+Esper (3 LP) [Gain 4 MAX HP]: Grants you 1 Esper ability from the list below.  Espers are magical flourishes that can be achieved by spending mana. Most are psychic based abilities and do not count as “magical in nature” nor is the use of these abilities considered to be the casting of a spell or cantrip.
+   * Deflect: As a reaction you can spend 1 or more mana to reduce the damage from a spell attack by 1d10 for each point of mana spent + your spellcasting modifier.  If you reduce the spell’s damage to 0 in this way, you can spend 1 additional point of mana to reflect the spell back at the caster.  You make a new spell attack with this spell using your own spell attack modifier but the original damage remains the same.
+   * Disarm: You spend 1 mana as bonus action to force a creature to make a strength saving throw against your spell save DC.  On a failed save, they drop one item they are holding.
+   * Pull: You can spend a bonus action and 2 mana to force a creature within 30ft of you to make a strength saving throw against your spell DC.  On a failed save they are pulled up to 15ft towards you.
+   * Push:  When you make an attack against a creature you can spend 1 mana to force them to make a strength saving throw against your spell DC.  On a failed save, the creature is pushed back 10ft.
+   * Slam:  When you make a successful attack against a creature you can spend 3 mana to attempt to slam them to the ground.  The attacked creature must make a strength saving throw against your spell DC or be knocked prone.  If the creature is larger than you, you must spend 1 additional mana for each size larger than you that they are, in order for this ability to affect them.  Creatures larger than you are otherwise unaffected by this ability.
+
+
+Major Arcana 
+   * Level 6 Spell.  Requirement: Level 10 or higher, 30 mana Cost: 2
+   * Level 7 Spell.  Requirement: Level 10 or higher, 35 mana Cost: 2
+   * Level 8 Spell.  Requirement: Level 15 or higher, 40 mana Cost: 3
+   * Level 9 Spell.  Requirement: Level 15 or higher, 50 mana Cost: 3
+
+
+TIER 5 (25 LP IN BLUE TO UNLOCK)
+MYSTIC ART (5LP) [Gain 5 MAX HP]: When you purchase this node you can select one of the following abilities from the list below.  It requires an action to activate a Mystic Art ability, and when you have done so, you cannot activate a Mystic Art ability again, until you finish a long rest.  When you use a Mystic Art, you automatically use up all of your remaining mana in order to do so, bringing your mana pool to 0.  The amount of mana used up this way will determine the effects of the Mystic Art used.  
+
+
+Mystic Arts are considered magical in nature but are not considered to be the casting of a spell (unless specified).  All Mystic Arts or spells cast by Mystic Arts, are unaffected by the effects of counterspell.
+
+
+Mystic Art: Shadow
+When you activate this ability, you summon one familiar from the list of familiars available in the “Summon” node.  
+
+
+It has a total amount of hit points equal to 5 times the amount of mana spent on this ability.  It shares the same mental abilities as you (Int, Wis & Cha) but its physical stats remain the same (Str, Dex, Con). 
+
+
+However, when you summon this familiar, you may choose either its Dexterity Score or Strength Score to become equal to half the amount of mana you spent on this ability.
+
+
+Your familiar's AC increases by 1 for every 5 mana spent on this ability + your proficiency modifier.
+
+
+For every 10 mana you spend on this ability, increase the size of your familiar by 1.
+Your familiar follows all other rules of a typical familiar.  However, should it remain summoned after 1 hour, its summoner takes 1 level of exhaustion, and continues to take an additional level of exhaustion for each additional hour that this familiar remains summoned.  A creature who dies from exhaustion in this way cannot be revived and instead turns into a tiny gemstone that contains the “Find Familiar” spell.
+
+
+Additionally, this summoned familiar gains the following abilities listed below, based on how much mana was spent on this ability. (See Below).
+
+
+Abilities gained by your familiar from the list below, include all additional abilities above them that required less mana:
+   * 10 mana: This summon gains the extra attack feature, allowing it to make 1 additional attack per turn.  Additionally it gains your choice of either a Slam, Slash or Stab ability.  Each deal 1d10 + its Strength or Dexterity Modifier + your Proficiency Bonus damage.  The damage type is either Bludgeoning, Slashing or Piercing damage respectfully, and is considered magical. 
+   * For every additional 10 points of mana spent in this Mystic Art, increase this damage by 1d10.
+   * 20 mana: Your familiar's movement speed is doubled and it can teleport a distance equal to its movement speed as a bonus action.  When it does so it can carry 1 additional willing and adjacent creature with it.
+   * 30 mana: This familiar is now considered a mount and can carry up to 2 medium or smaller willing creatures. Your familiar also gains 1 additional attack per turn.  
+   * Additionally, you may choose a damage type from the list below, and have your familiar become immune to that damage type:
+   * Acid, Cold, Fire, Lightning, Necrotic, Poison or Thunder.
+   * At any time, should you choose, you can change any of the damage dealt by your familiar, to this damage type instead.  
+   * Lastly, whenever your familiar is dealt damage by a melee attack, the attacker takes 5 damage of this familiar's associated damage type.
+   * 40 mana: The range of this creature's melee attack increases by 10ft and it now deals double damage to objects and constructs.  Alongside this it can carry up to 2 additional adjacent creatures with it when it uses its teleportation ability.
+   * Lastly, it can now carry up to 6 medium or smaller willing creatures.
+   * 50 mana: This creature can now move through other creature's spaces as well as any material no thicker than 1 ft, or objects/constructs that are huge or smaller.  When this familiar does so, the creature(s), material, object or construct must make a Dexterity Saving throw against your spell DC or take 3d10 bludgeoning damage.  A creature, material, object or construct forced to make a dexterity save in this way, cannot be made to do so again until the start of the familiar's next turn.
+   * Lastly, this familiar can now carry up to 10 medium or smaller willing creatures.
+
+
+Mystic Art: Life
+All creatures of your choosing, within a 30ft radius of you regain hit points equal to twice the amount of mana you used up when activating this mystic art.  
+This ability grants additional effects based on how much mana was spent to use it.  See additional effects below.
+Effects listed below include all additional effects above them that required less mana:
+   * 10 mana: Any creatures of your choice, within this ability’s healing aura, gain an additional 10ft of movement speed until the end of your next turn.
+   * 20 mana: Any creatures of your choice, within this ability’s healing aura, who are suffering one or more negative conditions, may end one of those conditions
+   * 30 mana: Any creatures of your choice, within this ability’s healing aura, who are cursed, may end one curse affecting them.
+   * 40 mana: Any creatures of your choice, within this ability’s healing aura who have lost limbs or who have suffered any other physical traumas within the last minute, are restored to their original state; missing limbs regenerate, scarred tissue is healed etc.
+   * 50 mana: Any creatures of your choosing within this ability's healing radius who have died within the last minute, return to life with 10 hit points, and 1 level of exhaustion.
+
+
+Mystic Art: Light
+When you activate this ability, all creatures of your choosing, within a 30ft radius, gain your “Blessing” for the next hour.  Any creatures with this Blessing gain a +1 to all attack rolls, saving throws and ability checks for each other creature within 5ft of them who also has your Blessing. 
+Creatures with your Blessing gain additional benefits, based on how much mana was spent to use this ability.  See additional effects below.
+Effects listed below include all previous effects above them that required less mana:
+   * 10 mana: If a creature has your Blessing, they gain an additional 10ft of movement speed for each additional creature adjacent to them, with this blessing at the start of their turn.
+   * 20 mana: If a creature with your Blessing deals damage, they deal an additional 1d4 radiant damage for each creature adjacent to them with your blessing.
+   * 30 mana: Any creature with your Blessing can spend their bonus action to teleport up to 30ft towards another creature with your Blessing.
+   * 40 mana: If a creature with your blessing is attacked, any creatures adjacent to them can spend their reaction to increase that creature's AC by 2.
+   * 50 mana: Once per turn, a creature with your Blessing may reroll one dice roll they dislike, but must use the new result.
+
+
+Mystic Art: Nul
+You create a permanent area of dead magic within a Xft radius around you, where X is equal to the amount of mana you used up when activating this ability.  You may also use this ability as a reaction instead of an action.  Doing so can counter any spell being cast at that moment.  
+This ability grants additional effects based on how much mana was spent to use it.  See additional effects below.
+Effects listed below include all additional effects above them that required less mana:
+   * 10 mana: One creature of your choice along with any magical items within their possession are unaffected by this area of dead magic.
+   * 20 mana: One additional creature of your choice along with any magical items within their possession are unaffected by this area of dead magic.
+   * 30 mana: One additional creature of your choice along with any magical items within their possession are unaffected by this area of dead magic.
+   * 40 mana: One magical item within this ability’s radius turns to ash and permanently loses all of its magical abilities.
+   * 50 mana: All magical items within this ability’s radius are instantly destroyed.  Any items held by creatures chosen to be unaffected by this area of dead magic, are also unaffected.
+
+
+Mystic Art: Blood
+When you activate this ability, all other creatures of your choosing within 30ft of you must make a constitution saving throw against your spell DC.  On a failed saving throw, they take necrotic damage equal to the amount of mana you spent when activating this ability.  You or one creature of your choice, then regains hit points equal to the amount of mana you spent when activating this ability.  Additionally, any creatures who failed their saving throw against this ability, gain any of the following negative abilities listed below based on how much mana was spent on this ability. (See Below).
+Effects listed below include all additional effects above them that required less mana:
+   * 10 mana: Creatures that failed their constitution saving throw , subtract 1d4 from all saving throws, ability checks  and attack rolls they make, for the next hour.
+   * 20 mana: Creatures that failed their constitution saving throw, have their movement speed reduced by 10ft, for the next hour and cannot use reactions.
+   * 30 mana: Creatures that failed their constitution saving throw, receive an additional 2d10 necrotic damage whenever they are hit with an attack, for the next minute. 
+   * 40 mana: Creatures that failed their constitution saving throw are cursed for the next minute.  All creatures cursed in this way have disadvantage on all attack rolls. 
+   * 50 mana: Creatures that failed their constitution saving throw cannot regain hit points until they take a long rest.  Additionally, whenever that creature is dealt necrotic damage, you or an ally of your choosing, within 10ft of the creature, regains hit points equal to the amount of necrotic damage taken, so long as that creature is cursed by this ability
+
+
+CYAN SKILLS
+TIER 2 (TIER 1 OF BOTH BLUE AND GREEN UNLOCKED)
+Jutsu (2LP) [Gain 2 MAX HP]: Jutsus are simple magical techniques focused on illusion and trickery, ideal for manipulating the encounters in your favour.  When you purchase from this node, you may choose 2 jutsu to add to your collection.  Each jutsu typically costs 1 mana and 1 stamina to perform.
+   * Substitution: When a creature makes an attack against you, you can spend your reaction to increase your AC by 5.  If the attack misses you, it instead hits a prepared Substitute from your inventory that you leave behind and you appear in a different location of your choosing that you can see within 10ft of where you were attacked.
+   * (A prepared substitute is a totem you spent time preparing-either during a short rest or a long rest-that can take your place during this action. You can prepare a number of substitutes equal to your proficiency bonus. Prepared Substitutes can be anything in your inventory.)
+   * Shadow Step: You can teleport to a place you can see within 30ft of you that is in dim light or darkness. You can spend your reaction to do this whenever a creature moves closer to you or as a bonus action.
+   * Waterstrider: You can spend 1 mana and 1 stamina to give yourself the ability to walk on water for 1 minute.  You can do this as a reaction whenever you touch a body of water or as a bonus action.  You cannot use this ability while submerged in water.
+   * Wallrider: You can spend 1 mana and 1 stamina to give yourself the ability to move along vertical surfaces for 1 minute.  Whenever you fall you can spend your reaction to use this ability to cling to a surface within 5ft of you or as a bonus action.
+   * Vanish: As a bonus action or reaction, you spend 1 mana and 1 stamina to gain the benefits of the pass without trace spell.  This is not considered to be a spell.
+   * Smokebomb: As a bonus action or reaction, you spend 1 mana and 1 stamina to cast fog cloud but it is not considered a magical effect.
+   * Oilspill: As a bonus action or reaction, you spend 1 mana and 1 stamina to cast grease, but it is not considered a magical effect.
+   * Infiltrate: As a bonus action or reaction, you can spend 1 mana and 1 stamina to change your appearance for 1 hour.  Your voice and physical appearance resemble a humanoid you have seen within the last 24 hours.  If you make an attack or cast a spell the disguise disappears.
+   * Shadow Clone: As a bonus action, you can spend 1 mana and 1 stamina to create an illusionary duplicate of yourself up to 10ft away in a space you can see.  When you do so, you can choose to immediately swap places with the duplicate so they are where you are and you are where the duplicate appeared.  The duplicate shares the same AC as you but only has 1 hit point.  It shares all of your other abilities, saving throws and skills, but it cannot cast spells or make attacks, unless you forgo your action on your turn to attack through your duplicate. Your duplicate can only ever deal 1 point of damage, whenever it deals damage.
+   * Mimicry: As a bonus action or reaction, you can spend 1 mana and 1 stamina to mimic a sound, mannerism, or gesture that you’ve experienced.  Alternatively you can spend 1 hour to mimic an individual's handwriting, a piece of art or short musical performance, so long as you have the correct tools needed to complete such a task.  When you do this, you cannot use this ability again until the end of a long rest.  After doing so, you will not be able to recreate the same effects again, without said reference and without the time to do so.
+TIER 3 (TIER 2 OF BOTH BLUE AND GREEN UNLOCKED)
+Advanced Jutsu (3LP) [Gain 3 MAX HP]: Advanced Jutsus are more devastating techniques than prior. Advanced Jutsus cost either 2 Stamina and 1 Mana or 2 Mana and 1 Stamina interchangeably. (NEEDS TO BE ADDED)
+Arcane Strikes (3LP) [Gain 3 MAX HP]: Your weapon and unarmed attacks are now considered to be magical in nature. Whenever you make an attack you can spend 1-3 mana to have it deal that much additional magic damage and 1-3 Stamina to increase its to hit bonus by that much. 
+TIER 4 (TIER 3 OF BOTH BLUE AND GREEN UNLOCKED) 
+Primal Strikes (3LP) [Gain 4 MAX HP]: When you purchase from this node, you may choose 3 damage types from the “Common Strikes” below, or 1 damage type from the “Expert Strikes” list below.  Any chosen damage types are added to a list of known strikes.
+
+
+If you have purchased from this node, you have the ability to spend a bonus action and 1 mana and 1 stamina to change the damage type made by any weapon you have, to any of the damage types from your “Strikes Known” list.  The effects of this ability last until you sheath your weapon, change its damage type to a different damage type, stop wielding your weapon for longer than 10 seconds, or fall unconscious.  
+Common Strikes: Fire, Cold, Lighting, Thunder, Acid, Poison
+Expert Strikes
+   * Psychic.  Additionally if you deal damage to a creature with 20 or more intelligence, with this Strike, you use double the damage dice.
+   * Radiant. Additionally if you deal damage to undead or fiend creatures, with this Strike,  you use double the damage dice.
+   * Necrotic.  Additionally if you deal damage to a plant or celestial creatures, with this Strike,  you use double the damage dice.
+   * Force. Additionally if you deal damage to a construct, with this Strike, you use double the damage dice.
+Spell Broken (3LP) [Gain 4 MAX HP]: When you purchase from this node, some arcane spark ignites within you.  Mana that flowed through you, now becomes one with your body, and you hunger for more.  The power of this node gets stronger each time you purchase from it.
+   * 1st purchase: Whenever you are targeted by or subjected to a spell, you regain 1 mana for every purchase made in this node.
+   * 2nd purchase: You gain advantage on saving throws against magical effects.
+   * 3rd purchase: You can spend 2 mana to cast counterspell, at 1st level.  However, you are unable to use this ability if the mana used for that spell exceeds your mana pool maximum.
+   * 4th purchase: Any time you counter a spell successfully, you regain mana equal to the amount of mana used to cast that spell.  Additionally, you can add that countered spell to the list of spells you know. 
+   * 5th purchase:  If ever you regain mana from a spellbroken ability, and you are not missing any mana, or the amount of mana gained would bring you to a total higher than your maximum mana score, you change into a “Spellbroken Form”.  You may choose to transform into either a beast, crystal or soul form.  When this happens, your spellcasting ability score becomes 5 and you can no longer concentrate on spells while in this form.  However, you can still cast spells.  Your Spellbroken form lasts for 1 minute, and when it ends you gain 1 level of exhaustion, and the amount of mana you have left in your mana pool is halved. You cannot switch between forms and must commit to each one
+
+
+Beast Form
+Your body begins to swell under the ever building pressure of magical force that whirlpools inside of you. Every fibre of muscle in your body fills with arcane energy causing your body to grow to twice its size. This magical energy can also cause a whole series of strange mutations from sprouting horns, scales or claws to your hair growing out or falling out entirely. As your mind becomes clouded your body becomes that of a beast. 
+
+
+Whenever you transform into your beast form, increase your strength score by 5 (to a maximum of 25). 
+Additionally, while in this form you get advantage on all Strength based saving throws and ability checks. You also take half damage from all non-magical bludgeoning, piercing, and slashing damage. You also count as one size larger and can carry twice your carrying capacity. Lastly, whenever you make an melee attack as an action, you can make 1 additional melee attack, and your unarmed attacks deal 1d8 slashing bludgeoning or piercing damage (your choice).
+
+
+Crystal Form
+Unable to contain the arcane energy within you it bursts from your body and begins to crystallise, turning your flesh, bone and mind into solid crystal. The transmutation of the body to gemstone leaves you in a sorry state when the transformation eventually ends. However, during this transformation you have never felt so invincible. However even after returning to your original form your body still left partly changed. Fragments of crystal still remain
+inside and out of your flesh and bone leaving you with small remnants of the power you once possessed.
+
+
+Whenever you transform into your crystal form, increase your AC by 5.  
+Additionally, while in this form you get advantage on all Constitution based saving throws and ability checks. You also take half damage from all non-magical piercing, and slashing damage. You also gain a vulnerability to thunder damage but become resistant to psychic damage.
+From now on, whenever you are not in your spellbroken form, your natural AC increases by 1.
+
+
+Soul Form
+The magical force within you begins to fuse with your very soul and begins to shed your physical body like an unwanted chrysalis. While in this spiritual form made of pure arcane energy, the very air around you begins to swirl, with you at its centre. You now exist in three places at once; the material plane, the ethereal realm and within the very weave of magic itself. Upon returning to your original form, the arcane energy around you tries to piece back together and regenerate the body that once was, leaving you born anew after every transformation.
+
+
+Whenever you transform into your soul form, increase your Dexterity score by 5 (to a maximum
+of 25).  
+Additionally, while in this form you get advantage on all Dexterity based saving throws and ability checks. You weigh no more than a single pound.  You also take half damage from all non-magical bludgeoning, piercing, and slashing damage.  
+
+
+During your turn, while in your soul form, you can use your movement action to teleport to any space you can see, up to your speed. When you do this you enter into, and move through, the ethereal plane before reappearing in the space you chose to “teleport” to. To anyone without the ability to see into the ethereal plane, it looks like you teleported.
+Forbidden Jutsu (3LP) [Gain 4 MAX HP]
+
+
+GREEN SKILLS
+TIER 1 
+Stamina (2LP) [Gain 2 MAX HP]: When you spend a point in this node you gain +2 Stamina to add to your Stamina Pool.  Stamina can be spent to use certain abilities such as Flourishes, Grapple Moves, Exposing Strikes or Tricks.  You can only spend a number of stamina points equal to your proficiency modifier each turn.  You regain all of your stamina after taking a short rest.
+
+
+Any unspent stamina you have when taking a short rest is converted into temporary hit points come the end of that short rest.  These temporary hit points disappear after 1 hour, or until you take your next short or long rest.
+
+
+As an action you can spend a hit dice and regain stamina equal to the roll result.
+
+
+TIER 2 (3LP IN GREEN TO UNLOCK)
+Tricks (2LP) [Gain 4 MAX HP]: When you spend a point in this node, you can choose 2 tricks from the list below.  A trick, occasionally referred to as a “dance”, is typically some sort of quick manoeuvre to gain an edge on the battlefield.  You can complete a 1 trick per turn.  A trick can be executed by spending either 1 stamina or by taking a bonus action to do so.
+   * Dodge: Take the dodge action (this costs 1 stamina and bonus action to use)
+   * Dash: Take the Dash action
+   * Hide: Take the Hide action
+   * Tumble: Costs: Your reaction and 1 stamina to reduce the falling damage you take by 10 times your level.
+   * Feint: Make contested deception vs a creature's insight.  If you succeed you gain advantage on your next attack against them this turn.
+   * Spring: You double your jump distance until the end of your turn.
+   * Quick Pick: You can attempt to either pick a lock or pickpocket a creature.  If you choose the latter, you make a contested sleight of hand check vs their perception, on a success you steal a tiny object being carried or potentially worn from that creature. (Dm’s discretion).
+   * Goad: You make a contested performance check vs a creature's insight, on a fail they must select you as an attack target on their next turn.
+   * Interfere: A creature you choose gains disadvantage on the next ability check it makes to perform the task you are interfering with, provided that it makes the check before the start of your next turn. Alternatively, you can hinder a creature trying to attack another creature within 5 feet of you.
+   * Juggle: You can change/swap the items in your hands for items in your inventory in one movement.  
+   * First Aid: You make a medicine check, administer a healer's kit, antitoxin, or health potion.
+   * Lead: You cause a willing creature you can touch, to move with you on your turn.
+   * Mundane “Illusion”: You harmlessly throw a rock, kick up dust, or imitate a bird call to misdirect another creature.  You make a contested sleight of hand or performance vs their perception.  If they fail they spend their turn moving towards a point of your choosing, within 20ft of you.  
+   * If this is activated in combat, the target makes their check with advantage and you make yours at disadvantage.
+   * Signal: You silently communicate a simple idea to a willing creature that can see you and can understand at least 1 language.
+
+
+Sneak Attack (1d4) (2LP) [Gain 4 MAX HP]: When you spend a point in this node, you gain an additional 1d4 damage which can be added to your sneak attacks.  Sneak attacks work the same way as they do in the PHB, requiring you to either have advantage against a creature or have an ally be adjacent to your target.  You may only make one sneak attack per turn and when you do, you deal a number of d4s of extra damage equal to the number of times you have invested in this node. You can only invest in this node three times. 
+
+
+TIER 3 (6LP IN GREEN TO UNLOCK)
+Flourish (2 LP) [Gain 6 MAX HP]: When you spend a point in this node, you can choose to learn one of the Flourishes from the list below.  Typically, when you make a weapon or unarmed attack, but before you deal damage, you can choose to add a flourish to that attack, by spending the required amount of stamina to do so.  Most flourishes cost 1 stamina, but others may require more.  You can only use one flourish per attack but are not limited to the amount of flourishes you can make per round.  
+
+
+Take note that some flourishes are limited to certain types of weapons such as melee or ranged attacks.  Flourishes cannot be used when casting spells.
+   * Trip: Costs 1 (or more) stamina point(s).  Make a contested athletics or acrobatics check with the creature you attacked; if you used a ranged attack, you must instead make a sleight of hand check.  If you succeed, that creature is knocked prone.  When you make this check you can add 1d4 to your skill check.  You can add 1 additional d4 for every additional point of stamina spent.
+   * Bull Rush: (Melee Only)  Costs 1 (or more) stamina point(s).  Move 10ft forward (+5 additional feet per stamina used) and push the creature you attacked that far with you.  If the pushed creature hits a hard surface (wall, larged object etc.), they take 1d4 of bludgeoning damage per stamina used.
+   * Disarm: Costs 1 (or more) stamina point(s).  Make a contented sleight of hand or strength check with the creature you attacked.  If you succeed, that creature drops one item of your choice that they are holding.  When you make this check you can add 1d4 to your skill check.  You can add 1 additional d4 for every additional point of stamina spent.
+   * Repose: Instead of being used when you make an attack, you can instead use this flourish as a reaction when you are attacked.  You can spend a number of stamina points to increase your AC by that amount +1 until the start of your next turn.
+   * Disengage: Spend 1 stamina to take the disengage action for free.
+   * Dodge Roll: Spend 1 stamina to move 10ft and  increase your AC by 2, until the start of your next turn.
+   * Cleave: If you reduce an enemy to 0 hit points with an attack, you can spend 1 stamina to inflict any leftover damage from the attack, to an adjacent creature.
+   * Grab: You can spend 1 stamina point to grapple a creature the same size as you or smaller that you have hit with an attack.
+   * Sweep: (Melee Only) You can spend 1 or more stamina to have any creature(s) of your choice, adjacent to the attacked target, take 1d4 damage per stamina spent.
+   * Smash: (Melee Only) Reduce the target’s AC by 1, until the end of your next turn, for every 2 points of stamina spent.
+   * Chug:  Costs 1 (or more) stamina point(s).  After making an attack you can additionally chug 1 potion as a free action.  If it is a healing potion you gain +1d4 additional healing per stamina spent.  If it is a magical effect, the effect lasts for 1d4 extra rounds per stamina spent.
+   * Meteor Shot: (Ranged Only) Spend 1 stamina before you make an attack, to fire your attack into the air.   Instead of selecting a creature to attack, you choose one 5ft space within range.  If a creature is in the area at the start of your next turn, your attack automatically hits that creature.
+   * Multishot: (Ranged Only) Spend 1 or more stamina to make one additional attack per stamina spent, each additional attack deals 1d4 damage.
+   * Pinning Strike: (Ranged Only) Spent 1 stamina to reduce a targets movement speed to zero until the end of their next turn.  Target can spend an action on their turn to free themselves and move.
+   * Uppercut: (Melee Only) Spend 1 stamina point to knock a creature (large or smaller) 5ft into the air.  Any grapple checks made against the target are made at advantage and they have disadvantage against dexterity saving throws.
+Sneak Attack (1d8) (2LP) [Gain 6 MAX HP]: Like the previous sneak attack, but the damage gained when you invest in this node, the damage increases by 1d8. You can only invest in this node three times. 
+TIER 4 (9LP IN GREEN TO UNLOCK)
+Evasion (4 LP) [Gain 8 MAX HP]: When you purchase from this node, you gain the evasion ability.  So long as you are not wearing heavy armour, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+
+
+Sneak Attack (1d10) (3 LP) [Gain 8 MAX HP] Like the previous sneak attack, but the damage gained when you invest in this node, the damage increases by 1d10. You can only invest in this node two times.
+
+
+TIER 5 (25LP IN GREEN TO UNLOCK)
+PERFECT FORM (5LP) [Gain 10 MAX HP]: When you purchase this node you can select one of the following abilities from the list below.  It requires an action to activate a Perfect Form ability, and when you have done so, you cannot activate a Perfect Form ability again, until you finish a long rest.  Additionally, you cannot activate a Perfect Form ability if you are missing any hit points.
+
+
+Create Weak Point: In a single, swift strike, you expose an area of weakness on your enemy where all attacks can easily penetrate.  You may activate this ability after making a successful attack against a target.  When you do so, you may use as many of the following effects below so long as you spend the required amount of stamina to do so.  Each ability has a listed amount of stamina needed to perform each effect.  You may choose any effect multiple times, but must spend the required amount of stamina each time you do. 
+
+
+These debuffs exist so long as you are not missing any hit points.  If you lose hit points and then regain them, these debuffs are not reapplied.
+
+
+   * Reduce the target's AC by 1 for the next 10 minutes.  (Costs: 1 stamina) each stamina spent reduces its AC by 1 to a maximum reduction of 5.
+   * Remove 1 of the target's resistances to a particular damage type or condition for the next minute. (cost: 1 stamina)
+   * Remove 1 of the target's immunities to a particular damage type or condition, for the next minute. (cost: 2 stamina)
+   * Remove a legendary resistance from the target.  Max 1. (cost 4 stamina)
+   * Remove one of the target's passive abilities. Eg. Regenerate, Reflective Carapace.  This ability lasts for 3 rounds of combat. (cost: 5 stamina)
+
+
+Deadly Strikes: All benefits of this ability last for 1 minute.  If you are missing any hit points, you cannot gain the benefits of this ability until they are full again. Whenever you deal sneak attack damage you can add more than one exposing strike to that attack as if you had it, so long as you have the stamina to do so. All attacks you make, while this ability is active, are made at advantage.
+
+
+Lightning Barrage: When you activate this ability, you make a number of attacks equal to your proficiency modifier.  After one of these attacks, you may teleport up to 60ft before you make the next attack.  After this, your movement speed is doubled until you take damage for the first time after activating this ability.
+
+
+Perfect Strikes: When you activate this ability, you spend a number of stamina points (max 5) to reduce the number you need to score a critical hit for by that amount.  This ability lasts for 1 minute, and you gain its benefits so long as you are not missing any hit points.
+
+
+Ultimate Defence: When you activate this ability your AC increases by 5 and you gain a +5 to all Dexterity saving throws.  When you move you do not provoke opportunity attacks and you gain the features of the evasion ability, as if you had it.
+This ability lasts for 1 minute, and you gain its benefits so long as you are not missing any hit points.
+
+
+YELLOW SKILLS
+TIER 2 (TIER 1 OF BOTH GREEN AND RED UNLOCKED)
+Combat Focus (2LP) [Gain 2 MAX HP]: When you purchase from this node, you select a combat focus from the list below.  You may only have one combat focus active at any one time.  During a long rest, or any time you level up, you may swap out your current combat focus for another combat focus that you know.
+   * Archery: You add +2 to all attack rolls made with ranged weapons
+   * Blind Fighting: You have 10ft of blindsight. 
+   * Defence: While wearing armour you have a +1 bonus to your AC.  If wearing a shield, you can also add your shield’s AC bonus to all dexterity saving throws you make against harmful effects.
+   * Duelist: While wielding a melee weapon in one hand and wielding no other weapons, when you are attacked, you can choose to parry the attack as a reaction, increasing your AC by 2, until the end of that turn.
+   * Great Weapon Fighting: When you roll a 1 or a 2 on a damage die with an attack you made with a melee weapon that you are wielding with 2 hands, you can reroll the die but you must use the new roll you get.
+   * Guardian: While wearing a shield, if a creature makes an attack that you can see, against a target within 5ft of you, or if you are within 5ft of the attack’s trajectory, you can spend your reaction to reduce the damage by 1d8 + your shield’s armour bonus + your proficiency.
+   * Throwing Style: Drawing and throwing a weapon can all be done in the same attack action.  When you make an attack with a thrown weapon, that weapon deals +2 additional damage.  Additionally, you can throw all weapons that do not have the heavy property, up to a number of feet equal to 10 times your strength modifier.  Attacks made by throwing weapons that do not have the thrown property, are made at disadvantage.
+   * Two-Weapon Style: You ignore the need for weapons that require the light property, in order to engage in two-weapon fighting.  Additionally, when you engage in two weapon fighting, you can add your ability modifier to the damage of the second attack.  Lastly, if ever you take the dodge action while dual wielding, you can add an additional +1 to your AC when you do.
+   * Unarmed Fighting: You can choose to use your dexterity or strength modifier when making unarmed attacks.  Your unarmed strikes can now deal bludgeoning damage equal to 1d8 + your Strength or Dexterity modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d8 becomes a d10.  Unarmed attacks you make against creatures grappled by you instead also use a 1d10 for damage, instead of 1d8.
+   * Point Blank Shooter:  You do not have disadvantage against creatures within 5ft of you, when making an attack with a ranged weapon.  Your ranged weapon attacks also ignore half cover and three-quarters cover, so long as the target is still within 30ft of you.  You gain +1 to all ranged attack rolls against creatures within 30ft of you.
+   * Sea Monkey Style: As long as you’re not wearing armour you gain a climbing and swimming speed equal to your movement speed.  Additionally, you can use the dodge roll flourish as a bonus action each turn, without spending stamina.
+
+
+Weapon Master (2LP) [Gain 2 MAX HP]: When you spend a point in this node, you can choose to gain the benefits of one of the Weapon Master abilities from the list below.  Each Weapon Master ability is associated with a particular weapon, and while wielding that weapon, you gain the benefits of any known Weapon Master abilities you have, associated with that weapon.  If you know multiple Weapon Master abilities that might all apply to the current weapon you are wielding, you gain the benefits of all of those abilities.
+
+
+Each ability also has a “Perfected Technique”.  These are accessible when you reach level 5 and own this particular Weapon Master ability.  These “perfected techniques” typically require stamina to use which will be noted in the ability itself.
+
+
+   * AXE-TERMINATOR: Affects any weapons described as an axe.
+   * When you make an attack with this weapon you can spend a bonus action to make a backswing with the axe, treating it as an “off-hand” attack.
+   * Perfected Technique (Available at 5th Level): When you make an attack with this weapon, against a creature, you can spend 2 stamina to have any adjacent creature of your choice, take damage equal to half of the damage dealt. You can spend an additional 2 stamina to choose an additional creature.
+   * Big Swinger: Affects any weapon with the two-handed property
+   * When you deal damage with this weapon to a target creature, you can deal additional damage to any one creature adjacent to your target, equal to your strength modifier.
+   * Perfected Technique (Available at 5th Level): When you use the Big Swinger ability, you may spend 1 stamina point to choose 1 additional adjacent creature, per stamina point spent.
+   * Boomeranger: Affects weapons with the light and thrown properties
+   * Whenever you throw any of these weapons, they return to your hand.
+   * Perfected Technique (Available at 5th Level): When you deal damage with this weapon, you can spend 1 stamina point to pull the target 10ft towards you when your weapon returns to your hand. The next attack made against this target has advantage.
+   * Bullseye: Affects any weapons described as a dart.
+   * The roll needed to roll a critical hit with this weapon is lowered by 3.
+   * Perfected Technique (Available at 5th Level): If you score a critical hit against a creature with this weapon, you can spend 2 stamina points to force that creature to make a constitution saving throw where the DC is equal to half of the damage they took (minimum 10) or be stunned until the end of your next turn.
+   * Clubbing: Affects any weapons described as a club
+   * When you deal damage to a creature with this weapon, they have a disadvantage on intelligence checks and saving throws until the end of your next turn.
+   * Perfected Technique (Available at 5th Level): When you use the clubbing ability, you can spend 2 stamina points to force the creature to make an intelligence saving throw, against your attack roll or become stunned until the start of your next turn.
+   * Entangler: Affects any weapons or objects that can be used to grapple or restrain 
+   * When you successfully grapple or restrain a creature with this weapon, they fall prone and cannot make attack rolls that require the use of their hands or cast spells that require material or somatic components, so long as they are grappled or restrained.
+   * Perfected Technique (Available at 5th Level): When you make an attack with this weapon to retrain or grapple a creature, you can spend 1 or more stamina to target any adjacent creatures to the original target.  You can select 1 additional target per stamina spent.
+   * Goliath Feller: Affects any weapon that is considered to be a sling
+   * Any damage you deal with this weapon to creatures larger than you is doubled.
+   * Perfected Technique (Available at 5th Level): When you make an attack with this weapon, against a creature larger than you, you can spend 1 stamina to force the creature to make a dexterity saving throw against your attack roll, or fall prone.
+   * Gun-Fu: Affects any weapons with the reload property
+   * You ignore the effects of the reload property with this weapon and no longer have disadvantage on attacks with it made at close range.
+   * Perfected Technique (Available at 5th Level): When you make an attack with this weapon, you can spend 1 stamina to make 1 additional attack with this weapon at disadvantage.      
+   * Hammer Time: Affects anyone weaponed described as a hammer or maul
+   * When you deal damage with this weapon to a creature wearing armour, you can spend 1 stamina to attempt a strength check against.  If you roll higher that the current AC of the creature, you can reduce their AC by 1 to a minimum of 10 + their dexterity modifier.  This armour reduction lasts until the armour is repaired or removed.
+   * Perfected Technique (Available at 5th Level): When you deal damage to a creature with this weapon, you can spend 1 stamina to reduce their AC by 2 until the end of your next turn, no save required.
+   * Hiker:  Affects any weapon described as a cane or staff.
+   * While wielding this weapon you increase your movement speed by 5ft and ignore difficult terrain. 
+   * Perfected Technique (Available at 5th Level): The movement speed granted by this ability is increased to 15ft.  Additionally, you can spend 1 stamina launch yourself an additional 10 ft to your leap or jump distance
+   * Improviser: Affects any item or object used as a weapon that is not typically considered a weapon
+   * You are considered proficient in attacks made with these “weapons”.  Additionally they deal an additional 1d4 of damage when used.  
+   * Perfected Technique (Available at 5th Level): You can spend 1 stamina to have attacks that you make, deal twice as much damage to constructs and objects, until the end of your turn.
+   * Sniper: Affects any weapons described as a bow
+   * You add a +1 to attacks and damage rolls made with this weapon.
+   * Perfected Technique (Available at 5th Level): When you make an attack with this weapon, you can spend 1 stamina to make 1 additional attack with this weapon at disadvantage.  You also no longer have disadvantage on attacks made with this weapon at long range.   
+   * Living Weapon: Affects unarmed attacks
+   * You become proficient in unarmed attacks and you can add 1d4 damage to your unarmed attacks. When you make an unarmed attack as an action, you can spend your bonus action to make two additional off-hand unarmed attacks.
+   * Perfected Technique (Available at 5th Level): When you use the Living Weapon ability to make additional unarmed attacks, you can spend 1 stamina to make 2 additional offhand unarmed attacks at disadvantage. 
+   * My Little Friend: Affects any weapon considered to be a knife or dagger.
+   * You can spend an action to conceal this weapon, hiding it from sight.  If you make an attack with a concealed weapon, it is considered a Sneak Attack, and you deal 1 additional d6 of damage with that weapon.  When you do so, the weapon is no longer concealed.  You can have a number of concealed weapons at any one time, equal to your dexterity modifier.
+   * Perfected Technique (Available at 5th Level): When you make an attack with this weapon, you can spend 1 stamina to make up to 2 additional attacks with any other concealed weapons you might have, but these attacks are made at a disadvantage.
+   * Poker: Affects any weapons described as spears
+   * Whenever you make an attack with this weapon, you push the attacked creature back 5ft.
+   * Perfected Technique (Available at 5th Level): You can spend 1 stamina point to increase the distance of your Poker ability by 10 additional feet.
+   * Protector: Affects anyone wielding a shield
+   * Any allies within 5ft of you gain a +1 bonus to their AC so long as you are not grappled, restrained, stunned or incapacitated.
+   * Perfected Technique (Available at 5th Level): You can spend your reaction and 1 stamina point to give any one ally within 10ft of you a bonus their AC equal to the AC bonus your shield provides, until the start of your turn, so long as they remain within 10ft of you.
+   * Sweeper: Affects any weapon described as a polearm.
+   * If you hit a creature who is beyond 5ft from you, with a melee attack using this weapon, you can force them to make a contested acrobatics or athletics check against you.  If they fail, they fall prone.
+   * If you choose to forgo dealing damage with this weapon you can remove “melee” or “beyond” from this ability’s description.
+   * Perfected Technique (Available at 5th Level): When you make a melee attack with this weapon, you can spend 1 stamina to make a sweeping attack.  This sweeping attack targets everyone within a 15ft cone.  You make an attack roll and each creature within the cone must make a dexterity saving throw against your attack roll.  On a failed save they take half as much damage from your attack.  On a successful save, they take no damage.   
+   * Vanilla Hero: Affects any weapons described as a sword
+   * You add a +1 to attacks and damage rolls made with this weapon. 
+   * Perfected Technique (Available at 5th Level): When you make an attack with this weapon, you can spend 1 stamina increase the range of your attack by 10ft for every point of stamina spent.
+   * Whiplash: Affects any weapons described as a whip
+   * When you make an attack with this weapon you can additionally make a grapple check as a free action against the target.  This can also be used against small objects to pull them towards you, or to move an additional 15ft horizontally, if you grapple a secured, unmoving object.
+   * Perfected Technique (Available at 5th Level): When you make an attack with this weapon and successfully grapple a creature, you can spend 1 stamina point to knock that creature prone.     
+   * Yeeter: Affects any weapons with the thrown property, or any throwable items
+   * Weapons you throw deal twice your ability modifier when calculating damage.
+   * Perfected Technique (Available at 5th Level): When you throw a weapon, you can spend 1 stamina to triple its range, ignoring any penalties from long ranged attacks.
+
+
+TIER 3 (TIER 2 OF BOTH GREEN AND RED UNLOCKED)
+Stance (3LP) [Gain 3 MAX HP]: When you purchase from this node, you may choose 1 stance from the list below.  You can spend 1 stamina and your bonus action to assume a stance, and continue to remain in this stance for 1 minute, or until you either change stances, dismiss your stance as a free action, or you fall unconscious.  
+   * Bounding Elk Stance: Your movement speed is increased by 10ft and so long as you have moved on your turn, you gain a +2 bonus to your AC until the start of your next turn, attacks made as reactions against you are made at disadvantage. 
+   * Charging Bull Stance:  After moving 10ft or more on your turn in a straight line, all melee attacks you make after that deal an additional 2 damage and can push that creature 5ft per 10 ft traveled .
+   * Defending Tortoise Stance:  So long as you don’t move on your turn, you gain resistance to slashing, bludgeoning, and piercing damage. 
+   * Fearful Bunny Stance:  As a reaction and by spending 1 stamina you can move up to half of your movement speed.
+   * Flanking Wolf Stance:  You gain a +1 to attack rolls for each ally adjacent to a creature that you are attacking.
+   * Grappling Serpent Stance:  Whenever you make a successful melee attack against a creature, you can attempt to grapple it after doing damage and spending 1 stamina. 
+   * Patient Heron Stance: Whenever a creature comes within 5ft of you, you can make a melee attack roll against them as a reaction and by spending 1 stamina. 
+Grapple Move (3LP) [Gain 3 MAX HP]: When you successfully grapple a target creature, you can spend 1 stamina point to lock them into a specific type of grapple, using one of the grapple moves you know.  When you purchase from this node you learn 2 grapple moves from the list below.
+   * Choke Hold: A creature grappled by you, with this grapple move, takes 1d6 bludgeoning damage at the start of each of your turns and cannot speak.
+   * Meatshield: While a creature is grappled by you, with this grapple move, any time you would take damage from an attack, you can spend your reaction to have this grappled creature take half as much of that damage, unless that attack comes from the Magic Missile spell.
+   * Grab & Toss: When a creature is grappled by you, with this grapple move, you can immediately toss that creature a number of feet equal to 10 + your athletics modifier.  For each size larger the creature is than you, this distance decreases by 5ft.  For every size category smaller the creature is than you, this distance is increased by 5ft.
+   * RKO: When a creature is grappled by you, with this grapple move, you immediately move that creature behind you.  When you do, that creature falls prone and takes damage equal to your strength modifier. If this was done mid air, the damage is doubled, tripled if done more than 10 ft in the air. 
+   * Floored: While a creature is grappled by you, with this grapple move, you and that creature both fall prone and remain prone until this grapple ends.
+   * Nerve Pinch: When a creature is first grappled by you, with this grapple move, they become stunned until the start of their next turn.
+   * Hostage Hold: When a creature grappled by you, with this grapple move, breaks free from your grapple, you can spend your reaction to make an attack against that creature.  This attack is made with advantage and the number needed to roll a critical hit is lowered by 1.
+   * Reversal: When you are grappled, you can spend 2 stamina to end the grapple as an action and then immediately make a grapple against the target who was grappling you.  If you grapple them successfully, you may turn that grapple into any grapple move you know, without spending stamina to do so.
+Everytime you purchase from this node, the size category of creature you are able to grapple increases by 1.  If you grapple a creature that is larger than you, you must spend a number of stamina points equal to the difference between the larger creature and you, in order to grapple it.
+
+
+TIER 4 (TIER 3 OF BOTH GREEN AND RED UNLOCKED)
+Natural Defense (3LP) [Gain 3 MAX HP]: When you purchase from this node, you decide where your natural defences come from: Constitution (enduring attacks), Intelligence (calculating incoming attacks) or Wisdom (reading enemies movements and predicting their attacks).
+
+
+Once you have done so, you can increase your natural defence by the modifier of that ability, so long as you are not wearing armour or wielding a shield.  
+
+
+Your Natural Defence is the AC score you have while not wearing armour is typically 10 + your dexterity modifier.  In this case, you may now also add the modifier of the chosen ability to this base AC.
+
+
+You can purchase from this node an additional time once you reach 5th, 10th and 15th level, but the cost of this node will increase by 3 each time you purchase from it. (1st purchase costs 3LP, 2nd purchase costs 6LP, 3rd purchase costs 9LP)  
+
+
+You cannot purchase from this node more than 3 times.  Each time you purchase from this node, you may choose an additional ability modifier that you have not previously chosen to add to your natural defence AC alongside any of the other previously purchased abilities.
+
+
+
+
+Exposing Strikes (3LP) [Gain 3 MAX HP]: When you purchase from this node, you may choose 2 exposing strikes from the list below.  When you deal sneak attack damage to a creature, or make a successful attack against a creature that you had advantage against, you may spend stamina to afflict them with the effects of one of your exposing strike abilities.  The amount of stamina required to afflict a creature with one of these abilities is listed in each ability’s description.
+
+
+A creature affected by an exposing strike condition, can make a constitution saving throw at the end of their turn to attempt to remove the effects of 1 exposing strike they condition they are subjected to.  The DC for your stunning strikes is equal to your charisma, intelligence or wisdom modifier + your proficiency modifier + 8. 
+   * Deafening Strike: The creature cannot hear. (Stamina Cost: 1)
+   * Debilitating Strike:  The creature has disadvantage on the next saving throw they make. (Stamina Cost: 1)
+   * Dizzying Strike: When this creature moves on their turn, they roll a d8 and move in that direction instead. (Stamina Cost: 1)
+   * Exposed Strike: The next attack against this creature has advantage. (Stamina Cost: 1)
+   * Frightening Strike:  The creature is now frightened of you. (Stamina Cost: 1)
+   * Poisoned Strike:  This creature is considered poisoned and takes 1d4 of poison damage at the start of each of their turns.  This ability can stack; if you use it a second time and the previous condition still remains active.  (Stamina Cost: 1)
+   * Silencing Strike: The creature cannot speak. (Stamina Cost: 1)
+   * Slowing Strike:  You reduce this creature’s movement speed by 10ft, for 1 minute.  If this creature’s movement speed is reduced to zero in this way, they fall prone.  This ability can stack, reducing their movement speed by an additional 10ft for each use. (Stamina Cost: 1)
+   * Stunning Strike:  The creature makes a constitution saving throw against your stunning strike DC.  On a failed save they are stunned until the end of their next turn. (Stamina Cost: 2)
+
+
+Extra Attack(5LP) [Gain 3 MAX HP] : When you purchase from this node, you gain the Extra Attack Feature.  When you make an attack as an action, you can make one additional attack.
+You cannot purchase from this node again until you reach 10th level.  If you purchase from this node a second time, you can now make one more additional attack when you use the extra attack feature.
+
+
+After purchasing from this node for a second time, you cannot purchase from it again until you reach 15th level.  If you purchase from this node a third time, you can now make one more additional attack when you use the extra attack feature.
+After purchasing from this node for a third time, you cannot purchase from it again until you reach 20th level.  If you purchase from this node a third time, you can now make one more additional attack when you use the extra attack feature.
+
+
+The LP cost of this node increases by 2 each time you purchase from this node.  
+
+
+(1st purchase costs 5LP, 2nd purchase costs 7LP, 3rd purchase costs 9LP and 4th purchase costs 11LP).
