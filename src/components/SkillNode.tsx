@@ -1,5 +1,5 @@
 import { Handle, Position } from 'reactflow';
-import { useSkillTreeStore } from '../store/skillTreeStore';
+import { useSkillTreeStore, prerequisitesMet, getTotalNodePoints } from '../store/skillTreeStore';
 import type { SkillNode as SkillNodeType } from '../types/skillTree';
 import React, { useState } from 'react';
 
@@ -16,29 +16,13 @@ const colorMap: Record<string, string> = {
 
 export const SkillNode = ({ data }: SkillNodeProps) => {
   const { character, nodes, investPoint, removePoint } = useSkillTreeStore();
-  const points = character.nodePoints[data.id] || 0;
+  const totalNodePoints = getTotalNodePoints(character.nodePoints, character.freeNodePoints);
+  const points = totalNodePoints[data.id] || 0;
   const [hovered, setHovered] = useState(false);
 
   const bgColor = colorMap[data.color] || colorMap.gray;
 
-  const isLocked = () => {
-    if (!data.prerequisites || data.prerequisites.length === 0) return false;
-  
-    const hasAnyMet = data.prerequisites.some(prereq => {
-      const prereqNode = nodes.find(n => n.id === prereq.id);
-      return prereqNode && character.nodePoints[prereq.id] >= prereq.points;
-    });
-  
-    const allPointsMet = data.prerequisites.every(prereq => {
-      const prereqNode = nodes.find(n => n.id === prereq.id);
-      return prereqNode ? character.nodePoints[prereq.id] >= prereq.points : true;
-    });
-  
-    // Locked if not all point thresholds met or no prereq met at all
-    return !(allPointsMet && hasAnyMet);
-  };
-
-  const locked = isLocked();
+  const locked = !prerequisitesMet(data, nodes, totalNodePoints, character.points || { red: 0, green: 0, blue: 0 });
   console.log(`Node ${data.name} (id: ${data.id}) locked:`, locked, 'prerequisites:', data.prerequisites);
 
   const handleClick = (e: React.MouseEvent) => {
@@ -81,17 +65,26 @@ export const SkillNode = ({ data }: SkillNodeProps) => {
         {locked && data.prerequisites && (
           <div className="text-xs text-red-200 mt-1 px-2 z-20">
             <div className="font-semibold mb-1">Requires:</div>
-            {data.prerequisites.map(p => {
-              const prereqNode = nodes.find(n => n.id === p.id);
-              return (
-                <div key={p.id} className="text-[10px] leading-tight">
-                  {p.points} points in {prereqNode?.name || p.id}
-                  <span className="text-red-300">
-                    ({character.nodePoints[p.id] || 0}/{p.points})
-                  </span>
-                </div>
-              );
-            })}
+            {data.prerequisites.map((group, groupIndex) => (
+              <div key={groupIndex} className="mb-1">
+                {group.prerequisites.map(prereq => {
+                  const prereqNode = nodes.find(n => n.id === prereq.id);
+                  return (
+                    <div key={prereq.id} className="text-[10px] leading-tight">
+                      {prereq.points} points in {prereqNode?.name || prereq.id}
+                      <span className="text-red-300">
+                        ({(totalNodePoints && totalNodePoints[prereq.id]) || 0}/{prereq.points})
+                      </span>
+                    </div>
+                  );
+                })}
+                {group.prerequisites.length > 1 && (
+                  <div className="text-[9px] text-red-300 italic">
+                    ({group.relationship})
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         )}
         {/* Custom Tooltip for full description */}
