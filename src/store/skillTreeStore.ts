@@ -88,7 +88,6 @@ const initialState: SkillTreeState = {
 
 // Helper to calculate resources based on skill tree points and trait bonuses
 function calculateResources(
-  characterPoints: Record<string, number>,
   specialAbilities: SpecialAbility[] = [],
   nodePoints: Record<string, number>
 ): {
@@ -355,7 +354,7 @@ export const useSkillTreeStore = create<SkillTreeStore>((set, get) => ({
       const specialAbilities = calculateSpecialAbilities(newCharacter);
       
       // Calculate resources with the new points and special abilities
-      const newResources = calculateResources(newPoints, specialAbilities, newNodePoints);
+      const newResources = calculateResources(specialAbilities, newNodePoints);
       
       return {
         character: {
@@ -422,7 +421,7 @@ export const useSkillTreeStore = create<SkillTreeStore>((set, get) => ({
       const specialAbilities = calculateSpecialAbilities(newCharacter);
       
       // Recalculate resources with new special abilities
-      newCharacter.resources = calculateResources(newCharacter.points, specialAbilities, newCharacter.nodePoints);
+      newCharacter.resources = calculateResources(specialAbilities, newCharacter.nodePoints);
       newCharacter.specialAbilities = specialAbilities;
       
       return { character: newCharacter };
@@ -481,7 +480,7 @@ export const useSkillTreeStore = create<SkillTreeStore>((set, get) => ({
         const specialAbilities = calculateSpecialAbilities(characterWithDefaults);
         
         // Calculate resources based on skill tree points
-        const resources = calculateResources(characterWithDefaults.points, specialAbilities, totalNodePoints);
+        const resources = calculateResources(specialAbilities, totalNodePoints);
         
         return {
           character: {
@@ -521,7 +520,7 @@ export const useSkillTreeStore = create<SkillTreeStore>((set, get) => ({
       const specialAbilities = calculateSpecialAbilities(newCharacter);
       
       // Recalculate resources with new special abilities
-      const resources = calculateResources(newCharacter.points, specialAbilities, newCharacter.nodePoints);
+      const resources = calculateResources(specialAbilities, newCharacter.nodePoints);
       
       return { 
         character: { 
@@ -555,7 +554,7 @@ export const useSkillTreeStore = create<SkillTreeStore>((set, get) => ({
       const specialAbilities = calculateSpecialAbilities(newCharacter);
       
       // Recalculate resources with new special abilities
-      const resources = calculateResources(newCharacter.points, specialAbilities, newCharacter.nodePoints);
+      const resources = calculateResources(specialAbilities, newCharacter.nodePoints);
       
       return { 
         character: { 
@@ -601,7 +600,7 @@ export const useSkillTreeStore = create<SkillTreeStore>((set, get) => ({
       const totalNodePoints = getTotalNodePoints(newCharacter.nodePoints, freeNodePoints);
       const effectiveAbilities = calculateEffectiveAbilities(newCharacter);
       const specialAbilities = calculateSpecialAbilities(newCharacter);
-      const resources = calculateResources(newCharacter.points, specialAbilities, totalNodePoints);
+      const resources = calculateResources(specialAbilities, totalNodePoints);
       return {
         character: {
           ...newCharacter,
@@ -621,7 +620,7 @@ export const useSkillTreeStore = create<SkillTreeStore>((set, get) => ({
       const totalNodePoints = getTotalNodePoints(newCharacter.nodePoints, freeNodePoints);
       const effectiveAbilities = calculateEffectiveAbilities(newCharacter);
       const specialAbilities = calculateSpecialAbilities(newCharacter);
-      const resources = calculateResources(newCharacter.points, specialAbilities, totalNodePoints);
+      const resources = calculateResources(specialAbilities, totalNodePoints);
       return {
         character: {
           ...newCharacter,
@@ -641,7 +640,7 @@ export const useSkillTreeStore = create<SkillTreeStore>((set, get) => ({
       const totalNodePoints = getTotalNodePoints(newCharacter.nodePoints, freeNodePoints);
       const effectiveAbilities = calculateEffectiveAbilities(newCharacter);
       const specialAbilities = calculateSpecialAbilities(newCharacter);
-      const resources = calculateResources(newCharacter.points, specialAbilities, totalNodePoints);
+      const resources = calculateResources(specialAbilities, totalNodePoints);
       return {
         character: {
           ...newCharacter,
@@ -665,7 +664,7 @@ export const useSkillTreeStore = create<SkillTreeStore>((set, get) => ({
       const totalNodePoints = getTotalNodePoints(newCharacter.nodePoints, freeNodePoints);
       const effectiveAbilities = calculateEffectiveAbilities(newCharacter);
       const specialAbilities = calculateSpecialAbilities(newCharacter);
-      const resources = calculateResources(newCharacter.points, specialAbilities, totalNodePoints);
+      const resources = calculateResources(specialAbilities, totalNodePoints);
       return {
         character: {
           ...newCharacter,
