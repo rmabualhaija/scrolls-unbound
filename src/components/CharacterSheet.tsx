@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useSkillTreeStore } from '../store/skillTreeStore';
 import { getTotalNodePoints } from '../store/skillTreeStore';
-import type { SkillNode } from '../types/skillTree';
 
 type AbilityKey = 'str' | 'dex' | 'con' | 'int' | 'wis' | 'cha';
 

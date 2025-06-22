@@ -25,15 +25,6 @@ export const SkillNode = ({ data }: SkillNodeProps) => {
   const locked = !prerequisitesMet(data, nodes, totalNodePoints, character.points || { red: 0, green: 0, blue: 0 });
   console.log(`Node ${data.name} (id: ${data.id}) locked:`, locked, 'prerequisites:', data.prerequisites);
 
-  const handleClick = (e: React.MouseEvent) => {
-    if (locked) return;
-    if (e.altKey) {
-      removePoint(data.id);
-    } else {
-      investPoint(data.id);
-    }
-  };
-
   return (
     <div className="flex flex-col items-center transform transition-all duration-200 hover:scale-105">
       <Handle type="target" position={Position.Top} />

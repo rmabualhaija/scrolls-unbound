@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import type { SkillTreeState, CharacterState, SkillNode, SpecialAbility, AbilityModifier } from '../types/skillTree';
+import type { SkillTreeState, CharacterState, SkillNode, SpecialAbility } from '../types/skillTree';
 import { races, birthsigns, feats } from '../data/traits';
 
 type AbilityKey = 'str' | 'dex' | 'con' | 'int' | 'wis' | 'cha';
