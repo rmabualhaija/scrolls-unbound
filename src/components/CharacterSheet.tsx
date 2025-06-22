@@ -25,7 +25,7 @@ function getModifier(score: number) {
 }
 
 export const CharacterSheet: React.FC = () => {
-  const { character, nodes, incrementAbility, decrementAbility, incrementLevel, decrementLevel, incrementAC, decrementAC, toggleUseDexForAC, saveCharacter, loadCharacter } = useSkillTreeStore();
+  const { character, nodes, incrementAbility, decrementAbility, incrementLevel, decrementLevel, incrementAC, decrementAC, toggleUseDexForAC, saveCharacter, loadCharacter, setNodeChoice } = useSkillTreeStore();
   const [saveMessage, setSaveMessage] = useState<string>('');
   const [loadMessage, setLoadMessage] = useState<string>('');
   
@@ -66,6 +66,10 @@ export const CharacterSheet: React.FC = () => {
   const redPoints = nodes.filter(n => n.color === 'red').reduce((sum, n) => sum + (totalNodePoints[n.id] || 0), 0);
   const greenPoints = nodes.filter(n => n.color === 'green').reduce((sum, n) => sum + (totalNodePoints[n.id] || 0), 0);
   const bluePoints = nodes.filter(n => n.color === 'blue').reduce((sum, n) => sum + (totalNodePoints[n.id] || 0), 0);
+
+  const handleNodeChoiceChange = (nodeId: string, choice: string) => {
+    setNodeChoice(nodeId, choice);
+  };
 
   return (
     <div className="p-4 bg-white/90 rounded-2xl shadow-xl">
@@ -273,6 +277,31 @@ export const CharacterSheet: React.FC = () => {
               <div className="font-semibold text-slate-800">{node.name}</div>
               <div className="text-xs text-slate-500">Points: {totalNodePoints && totalNodePoints[node.id]}</div>
               <div className="text-xs text-slate-700 mt-1">{node.description}</div>
+              {/* Node choice UI */}
+              {node.choices && node.choices.length > 0 && (
+                <div className="mt-2">
+                  <label className="text-xs font-semibold text-slate-600 mr-2">Choice:</label>
+                  <select
+                    className="rounded border px-2 py-1 text-xs"
+                    value={(character.nodeChoices || {})[node.id] || ''}
+                    onChange={e => handleNodeChoiceChange(node.id, e.target.value)}
+                  >
+                    <option value="" disabled>Select...</option>
+                    {node.choices.map(choice => (
+                      <option key={choice.value} value={choice.value}>{choice.value}</option>
+                    ))}
+                  </select>
+                  {(character.nodeChoices || {})[node.id] && (
+                    <span className="ml-2 text-xs text-blue-700 font-semibold">Selected: {(character.nodeChoices || {})[node.id]}</span>
+                  )}
+                  {/* Show description for selected choice */}
+                  {(character.nodeChoices || {})[node.id] && (
+                    <div className="mt-1 text-xs text-slate-600">
+                      {node.choices.find(c => c.value === (character.nodeChoices || {})[node.id])?.description}
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           ))}
         </div>

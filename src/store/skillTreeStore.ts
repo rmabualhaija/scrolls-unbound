@@ -25,6 +25,7 @@ interface SkillTreeStore extends SkillTreeState {
   toggleFeat: (featId: string) => void;
   getEffectiveAbilities: () => Record<AbilityKey, number>;
   getSpecialAbilities: () => SpecialAbility[];
+  setNodeChoice: (nodeId: string, choice: string) => void;
 }
 
 const ABILITY_MIN = 8;
@@ -83,6 +84,7 @@ const initialState: SkillTreeState = {
       cha: 8,
     },
     specialAbilities: [],
+    nodeChoices: {},
   },
 };
 
@@ -686,4 +688,11 @@ export const useSkillTreeStore = create<SkillTreeStore>((set, get) => ({
     const state = get();
     return calculateSpecialAbilities(state.character);
   },
+
+  setNodeChoice: (nodeId, choice) => set(state => ({
+    character: {
+      ...state.character,
+      nodeChoices: { ...state.character.nodeChoices, [nodeId]: choice },
+    },
+  })),
 })); 

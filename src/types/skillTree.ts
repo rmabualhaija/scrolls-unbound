@@ -13,6 +13,11 @@ export interface PrerequisitesGroup {
   relationship: PrerequisiteRelationship;
 }
 
+export interface NodeChoice {
+  value: string;
+  description: string;
+}
+
 export interface SkillNode {
   id: string;
   name: string;
@@ -28,6 +33,7 @@ export interface SkillNode {
     green?: number;
     blue?: number;
   };
+  choices?: NodeChoice[]; // Optional: list of sub-choices for this node, with descriptions
 }
 
 // New types for trait effects
@@ -132,6 +138,7 @@ export interface CharacterState {
     cha: number;
   };
   specialAbilities: SpecialAbility[];
+  nodeChoices?: Record<string, string>; // nodeId -> chosen option
 }
 
 export interface SkillTreeState {
