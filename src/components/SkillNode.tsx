@@ -1,7 +1,6 @@
 import { Handle, Position } from 'reactflow';
 import { useSkillTreeStore, prerequisitesMet, getTotalNodePoints } from '../store/skillTreeStore';
 import type { SkillNode as SkillNodeType } from '../types/skillTree';
-import React, { useState } from 'react';
 
 interface SkillNodeProps {
   data: SkillNodeType;
@@ -15,10 +14,9 @@ const colorMap: Record<string, string> = {
 };
 
 export const SkillNode = ({ data }: SkillNodeProps) => {
-  const { character, nodes, investPoint, removePoint } = useSkillTreeStore();
+  const { character, nodes } = useSkillTreeStore();
   const totalNodePoints = getTotalNodePoints(character.nodePoints, character.freeNodePoints);
   const points = totalNodePoints[data.id] || 0;
-  const [hovered, setHovered] = useState(false);
 
   const bgColor = colorMap[data.color] || colorMap.gray;
 
@@ -35,8 +33,6 @@ export const SkillNode = ({ data }: SkillNodeProps) => {
           backgroundColor: bgColor, 
           boxShadow: '0 4px 24px 0 rgba(0,0,0,0.10)',
         }}
-        onMouseEnter={() => setHovered(true)}
-        onMouseLeave={() => setHovered(false)}
       >
         {/* Lock Icon Overlay */}
         {locked && (
@@ -76,13 +72,6 @@ export const SkillNode = ({ data }: SkillNodeProps) => {
                 )}
               </div>
             ))}
-          </div>
-        )}
-        {/* Custom Tooltip for full description */}
-        {hovered && (
-          <div className="absolute left-1/2 top-full z-50 -translate-x-1/2 mt-2 w-80 p-4 bg-slate-900 text-white text-sm rounded-xl shadow-2xl border border-slate-700 pointer-events-none whitespace-pre-line">
-            <div className="font-bold mb-2 text-lg">{data.name}</div>
-            <div>{data.description}</div>
           </div>
         )}
       </div>
