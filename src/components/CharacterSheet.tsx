@@ -76,15 +76,6 @@ export const CharacterSheet: React.FC = () => {
     setEditingHPValue(event.target.value);
   };
 
-  const handleHPInputSubmit = (event: React.FormEvent) => {
-    event.preventDefault();
-    const newHP = parseInt(editingHPValue);
-    if (!isNaN(newHP)) {
-      setHP(newHP);
-      setEditingHPValue('');
-    }
-  };
-
   const handleHPClick = () => {
     setIsEditingHP(true);
     setEditingHPValue((character.hp || 0).toString());
