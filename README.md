@@ -1,54 +1,92 @@
-# React + TypeScript + Vite
+# Scrolls Unbound - Character Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based character builder for a custom D&D-inspired system with skill trees, traits, and persistent character saving.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Character Creation
+- **Point Buy System**: Allocate ability scores using a point buy system
+- **Races & Birthsigns**: Choose from various races and birthsigns with unique bonuses
+- **Skill Trees**: Invest points in red (combat), green (survival), and blue (magic) skill trees
+- **Feats**: Select feats to customize your character further
 
-## Expanding the ESLint configuration
+### Character Management
+- **Local Storage**: Automatic saving to browser localStorage
+- **Export/Import**: Save characters as JSON files for backup and sharing
+  - **Export**: Download your character as a JSON file with timestamp
+  - **Import**: Load previously exported character files
+- **Persistent Data**: Characters survive browser restarts and can be shared across devices
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Skill Tree System
+- **Three Paths**: Red (combat focus), Green (survival/defense), Blue (magic)
+- **Prerequisites**: Nodes require specific investments in other nodes
+- **Choices**: Some nodes offer multiple options to choose from
+- **Dynamic Effects**: Abilities and HP bonuses scale with your choices
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### Special Features
+- **Lord Birthsign**: Unique birthsign that provides HP bonus based on Constitution modifier (2 + CON mod)
+- **Real-time Calculations**: All stats update automatically as you make changes
+- **Visual Feedback**: Clear indication of available points and requirements
+
+## Getting Started
+
+1. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Start Development Server**:
+   ```bash
+   npm run dev
+   ```
+
+3. **Open Browser**: Navigate to `http://localhost:5173`
+
+## Character Saving
+
+### Local Storage (Automatic)
+- Characters are automatically saved to your browser's localStorage
+- Data persists between browser sessions
+- Limited to the current browser/device
+
+### Export/Import (Recommended)
+- **Export**: Click "Export Character" to download a JSON file
+- **Import**: Click "Import Character" and select a previously exported file
+- **Benefits**: 
+  - Works across different browsers and devices
+  - Survives browser data clearing
+  - Can be shared with other players
+  - Backup against data loss
+
+## Development
+
+### Tech Stack
+- **React 18** with TypeScript
+- **Vite** for fast development and building
+- **Zustand** for state management
+- **Tailwind CSS** for styling
+
+### Project Structure
+```
+src/
+├── components/          # React components
+│   ├── CharacterSheet.tsx
+│   ├── SkillNode.tsx
+│   └── SkillTree.tsx
+├── data/               # Game data
+│   ├── skillNodes.ts   # Skill tree definitions
+│   └── traits.ts       # Races, birthsigns, feats
+├── store/              # State management
+│   └── skillTreeStore.ts
+└── types/              # TypeScript definitions
+    └── skillTree.ts
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Adding New Content
+- **Skill Nodes**: Add to `src/data/skillNodes.ts`
+- **Traits**: Add races, birthsigns, or feats to `src/data/traits.ts`
+- **Types**: Update `src/types/skillTree.ts` for new data structures
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## License
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+This project is open source and available under the MIT License.
