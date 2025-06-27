@@ -50,7 +50,7 @@ export interface SpecialAbility {
   source: string; // e.g., "race:elf", "birthsign:mage", "feat:alert"
   category: 'racial' | 'birthsign' | 'feat';
   effects?: {
-    hpBonus?: number;
+    hpBonus?: number | string; // Can be a fixed number or ability key like 'constitution'
     manaBonus?: number;
     staminaBonus?: number;
     acBonus?: number;
@@ -95,7 +95,19 @@ export interface Feat {
   effects: TraitEffect;
 }
 
+export interface InventoryItem {
+  id: string;
+  name: string;
+  quantity: number;
+  unit: string; // e.g., "pieces", "pounds", "ounces", "feet", etc.
+  weightPerUnit: number; // weight per unit in pounds
+  description: string;
+}
+
 export interface CharacterState {
+  name?: string; // Character name
+  notes?: string; // Free-form notes
+  inventory?: InventoryItem[]; // Character inventory
   points: {
     red: number;
     green: number;

@@ -12,6 +12,7 @@ type TabType = 'skill-tree' | 'race' | 'birthsign' | 'feats';
 export default function App() {
   const { loadCharacter, addNode } = useSkillTreeStore();
   const [activeTab, setActiveTab] = useState<TabType>('skill-tree');
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
 
   useEffect(() => {
     if (useSkillTreeStore.getState().nodes.length === 0) {
@@ -46,32 +47,78 @@ export default function App() {
 
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-slate-100 via-slate-200 to-slate-300 flex items-center justify-center p-6">
-      <div className="flex w-full max-w-7xl h-[90vh] gap-8">
-        <div className="flex-1 bg-white/80 rounded-2xl shadow-2xl p-4 flex flex-col">
-          {/* Tab Navigation */}
-          <div className="flex border-b border-slate-200 mb-4">
-            {tabs.map((tab) => (
-              <button
-                key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
-                className={`flex items-center gap-2 px-6 py-3 font-semibold transition-colors ${
-                  activeTab === tab.id
-                    ? 'text-blue-600 border-b-2 border-blue-600 bg-blue-50'
-                    : 'text-slate-600 hover:text-slate-800 hover:bg-slate-50'
-                }`}
-              >
-                <span className="text-lg">{tab.icon}</span>
-                {tab.label}
-              </button>
-            ))}
+      <div className={`flex w-full max-w-7xl h-[90vh] gap-8 transition-all duration-300 ${
+        sidebarCollapsed ? 'justify-center' : ''
+      }`}>
+        {/* Collapsible Sidebar */}
+        <div className={`bg-white/80 rounded-2xl shadow-2xl p-4 flex flex-col transition-all duration-300 ${
+          sidebarCollapsed ? 'w-16 overflow-hidden' : 'flex-1'
+        }`}>
+          {/* Collapse/Expand Button */}
+          <div className="flex justify-between items-center mb-4">
+            {!sidebarCollapsed && (
+              <div className="flex border-b border-slate-200 flex-1">
+                {tabs.map((tab) => (
+                  <button
+                    key={tab.id}
+                    onClick={() => setActiveTab(tab.id)}
+                    className={`flex items-center gap-2 px-6 py-3 font-semibold transition-colors ${
+                      activeTab === tab.id
+                        ? 'text-blue-600 border-b-2 border-blue-600 bg-blue-50'
+                        : 'text-slate-600 hover:text-slate-800 hover:bg-slate-50'
+                    }`}
+                  >
+                    <span className="text-lg">{tab.icon}</span>
+                    {tab.label}
+                  </button>
+                ))}
+              </div>
+            )}
+            <button
+              onClick={() => setSidebarCollapsed(!sidebarCollapsed)}
+              className={`flex items-center justify-center w-10 h-10 rounded-lg bg-slate-200 hover:bg-slate-300 transition-colors ${
+                sidebarCollapsed ? 'ml-0' : 'ml-2'
+              }`}
+              title={sidebarCollapsed ? 'Expand Builder' : 'Collapse Builder'}
+            >
+              <span className="text-lg">
+                {sidebarCollapsed ? '→' : '←'}
+              </span>
+            </button>
           </div>
           
           {/* Tab Content */}
-          <div className="flex-1 flex items-center justify-center">
-            {renderTabContent()}
-          </div>
+          {!sidebarCollapsed && (
+            <div className="flex-1 flex items-center justify-center">
+              {renderTabContent()}
+            </div>
+          )}
+          
+          {/* Collapsed State - Show Icons Only */}
+          {sidebarCollapsed && (
+            <div className="flex flex-col items-center space-y-4 mt-4">
+              {tabs.map((tab) => (
+                <button
+                  key={tab.id}
+                  onClick={() => setSidebarCollapsed(false)}
+                  className={`w-12 h-12 rounded-lg flex items-center justify-center transition-colors ${
+                    activeTab === tab.id
+                      ? 'bg-blue-100 text-blue-600'
+                      : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                  }`}
+                  title={`${tab.label} (Click to expand)`}
+                >
+                  <span className="text-xl">{tab.icon}</span>
+                </button>
+              ))}
+            </div>
+          )}
         </div>
-        <div className="w-[600px] bg-white/90 rounded-2xl shadow-2xl p-6 overflow-y-auto">
+        
+        {/* Character Sheet */}
+        <div className={`bg-white/90 rounded-2xl shadow-2xl p-6 overflow-y-auto transition-all duration-300 ${
+          sidebarCollapsed ? 'w-full max-w-6xl' : 'w-[600px]'
+        }`}>
           <CharacterSheet />
         </div>
       </div>

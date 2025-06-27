@@ -490,21 +490,24 @@ export const birthsigns: Birthsign[] = [
       ],
       specialAbilities: [
         {
-          id: 'lord-inspire-allies',
-          name: 'Inspire Allies',
-          description: 'You can inspire your allies, granting them advantage on their next attack roll.',
+          id: 'lord-protection',
+          name: 'Lord\'s Protection',
+          description: 'Once per long rest as a reaction reduce non-fire damage by 1d10 + lvl',
           source: 'birthsign:lord',
           category: 'birthsign',
         },
         {
-          id: 'lord-leadership',
-          name: 'Natural Leader',
-          description: 'You have advantage on Charisma checks when dealing with authority figures.',
+          id: 'lord-hp-bonus',
+          name: 'Lord\'s Vitality',
+          description: 'You gain 2 + your Constitution modifier to your maximum hit points.',
           source: 'birthsign:lord',
           category: 'birthsign',
+          effects: {
+            hpBonus: 'constitution', // Special value to indicate dynamic calculation
+          },
         },
       ],
-      description: '+2 Charisma, can inspire allies, advantage on Charisma checks with authority',
+      description: 'Lords\'s Protection, and 2 + Constitution modifier HP',
     },
   },
   {
