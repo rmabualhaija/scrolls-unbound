@@ -27,10 +27,6 @@ function getModifier(score: number) {
 
 export const CharacterSheet: React.FC = () => {
   const { character, nodes, incrementAbility, decrementAbility, incrementLevel, decrementLevel, incrementAC, decrementAC, incrementHP, decrementHP, setHP, toggleUseDexForAC, setName, setNotes, addInventoryItem, updateInventoryItem, removeInventoryItem, saveCharacter, loadCharacter, exportCharacter, importCharacter, setNodeChoice } = useSkillTreeStore();
-  const [saveMessage, setSaveMessage] = useState<string>('');
-  const [loadMessage, setLoadMessage] = useState<string>('');
-  const [exportMessage, setExportMessage] = useState<string>('');
-  const [importMessage, setImportMessage] = useState<string>('');
   const [isEditingHP, setIsEditingHP] = useState(false);
   const [editingHPValue, setEditingHPValue] = useState<string>('');
   const fileInputRef = React.useRef<HTMLInputElement>(null);
@@ -48,20 +44,14 @@ export const CharacterSheet: React.FC = () => {
 
   const handleSave = () => {
     saveCharacter();
-    setSaveMessage('Character saved!');
-    setTimeout(() => setSaveMessage(''), 2000);
   };
 
   const handleLoad = () => {
     loadCharacter();
-    setLoadMessage('Character loaded!');
-    setTimeout(() => setLoadMessage(''), 2000);
   };
 
   const handleExport = () => {
     exportCharacter();
-    setExportMessage('Character exported!');
-    setTimeout(() => setExportMessage(''), 2000);
   };
 
   const handleImport = () => {
@@ -73,11 +63,9 @@ export const CharacterSheet: React.FC = () => {
     if (file) {
       try {
         await importCharacter(file);
-        setImportMessage('Character imported!');
-        setTimeout(() => setImportMessage(''), 2000);
       } catch (error) {
-        setImportMessage('Import failed!');
-        setTimeout(() => setImportMessage(''), 2000);
+        // setImportMessage('Import failed!');
+        // setTimeout(() => setImportMessage(''), 2000);
       }
     }
     // Reset the input so the same file can be selected again
@@ -94,12 +82,6 @@ export const CharacterSheet: React.FC = () => {
     if (!isNaN(newHP)) {
       setHP(newHP);
       setEditingHPValue('');
-    }
-  };
-
-  const handleHPInputKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
-    if (event.key === 'Enter') {
-      handleHPInputSubmit(event);
     }
   };
 
